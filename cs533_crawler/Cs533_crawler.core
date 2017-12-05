@@ -25,6 +25,22 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
+      <reuses xmi:id="_RSAZhtoGEeeqNuUjSw5MuA" name="Association_WebPage_HtmlPage" selectedConfiguration="_RSAZh9oGEeeqNuUjSw5MuA">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_RSAZh9oGEeeqNuUjSw5MuA" name="Automatic selection" reuse="_RSAZhtoGEeeqNuUjSw5MuA">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_gGlysNoHEeeqNuUjSw5MuA" name="Singleton" selectedConfiguration="_gGlysdoHEeeqNuUjSw5MuA">
+        <reusedConcern href="Reused_Singleton/Singleton.core#_d1_oUKBBEeS-cby9IJCtzQ"/>
+        <configurations xmi:id="_gGlysdoHEeeqNuUjSw5MuA" name="Singleton_Singleton" reuse="_gGlysNoHEeeqNuUjSw5MuA">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Singleton/Singleton.core#_d1_oUaBBEeS-cby9IJCtzQ"/>
+          <selected href="Reused_Singleton/Singleton.core#_d1_oUqBBEeS-cby9IJCtzQ"/>
+        </configurations>
+      </reuses>
     </features>
     <features xmi:id="_HLpgALXUEee3M-EPgQFctQ" name="Authentication handling" children="_JP5PsLXUEee3M-EPgQFctQ _Jiro0LXUEee3M-EPgQFctQ" parent="_FSp-EbXUEee3M-EPgQFctQ" parentRelationship="Optional">
       <realizedBy xsi:type="ram:Aspect" href="Authentication%20handling.ram#_TUGqILXVEee3M-EPgQFctQ"/>
@@ -91,81 +107,11 @@
     </features>
     <features xmi:id="_Hf_YULXUEee3M-EPgQFctQ" name="Page content processing" children="_KAN5YLXUEee3M-EPgQFctQ _KTmIYLXUEee3M-EPgQFctQ" parent="_FSp-EbXUEee3M-EPgQFctQ" parentRelationship="Mandatory">
       <realizedBy xsi:type="ram:Aspect" href="Content%20processing.ram#_nUmHgLXWEee3M-EPgQFctQ"/>
-      <reuses xmi:id="_XUWzabqSEeeHZZgwTn_r7Q" name="Association_ProcessedContent_SourceCode" selectedConfiguration="_XUWza7qSEeeHZZgwTn_r7Q">
-        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
-        <configurations xmi:id="_XUWzarqSEeeHZZgwTn_r7Q" name="User selection">
-          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
-          <selected href="Reused_Association/Association.core#__6WrkACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
-        </configurations>
-        <configurations xmi:id="_XUWza7qSEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_XUWzabqSEeeHZZgwTn_r7Q">
-          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_8RGMMJFtEeWSP-8jReRTpg"/>
-          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
-          <selected href="Reused_Association/Association.core#_A4UO8JFuEeWSP-8jReRTpg"/>
-          <selected href="Reused_Association/Association.core#__6WrkACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_LEwHcACXEeWTy6SkLveZ6w"/>
-        </configurations>
-      </reuses>
-      <reuses xmi:id="_XVmwmbqSEeeHZZgwTn_r7Q" name="Association_SourceCode_ProcessedContent" selectedConfiguration="_XVmwm7qSEeeHZZgwTn_r7Q">
-        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
-        <configurations xmi:id="_XVmwmrqSEeeHZZgwTn_r7Q" name="User selection">
-          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#__6WrkACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
-        </configurations>
-        <configurations xmi:id="_XVmwm7qSEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_XVmwmbqSEeeHZZgwTn_r7Q">
-          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_8RGMMJFtEeWSP-8jReRTpg"/>
-          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
-          <selected href="Reused_Association/Association.core#_A4UO8JFuEeWSP-8jReRTpg"/>
-          <selected href="Reused_Association/Association.core#__6WrkACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
-        </configurations>
-      </reuses>
-      <reuses xmi:id="_l9EwOrqSEeeHZZgwTn_r7Q" name="Association_UserQuery_ProcessedContent" selectedConfiguration="_l9EwO7qSEeeHZZgwTn_r7Q">
-        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
-        <configurations xmi:id="_l9EwO7qSEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_l9EwOrqSEeeHZZgwTn_r7Q">
-          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
-        </configurations>
-      </reuses>
-      <reuses xmi:id="_l9ME-rqSEeeHZZgwTn_r7Q" name="Association_ProcessedContent_UserQuery" selectedConfiguration="_l9ME-7qSEeeHZZgwTn_r7Q">
-        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
-        <configurations xmi:id="_l9ME-7qSEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_l9ME-rqSEeeHZZgwTn_r7Q">
-          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
-          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+      <reuses xmi:id="_NKGkcNoQEeeqNuUjSw5MuA" name="Singleton" selectedConfiguration="_NKGkcdoQEeeqNuUjSw5MuA">
+        <reusedConcern href="Reused_Singleton/Singleton.core#_d1_oUKBBEeS-cby9IJCtzQ"/>
+        <configurations xmi:id="_NKGkcdoQEeeqNuUjSw5MuA" name="Singleton_Singleton" reuse="_NKGkcNoQEeeqNuUjSw5MuA">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Singleton/Singleton.core#_d1_oUaBBEeS-cby9IJCtzQ"/>
+          <selected href="Reused_Singleton/Singleton.core#_d1_oUqBBEeS-cby9IJCtzQ"/>
         </configurations>
       </reuses>
     </features>

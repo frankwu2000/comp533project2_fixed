@@ -64,7 +64,7 @@
   <coreConcern href="Cs533_crawler.core#_FSlsobXUEee3M-EPgQFctQ"/>
   <structuralView xmi:id="_18Ax8bXYEee3M-EPgQFctQ">
     <classes xsi:type="ram:Class" xmi:id="_ZReqsLXZEee3M-EPgQFctQ" name="ProcessedContent"/>
-    <classes xsi:type="ram:Class" xmi:id="_aRA1ELXZEee3M-EPgQFctQ" name="MediaLink" superTypes="_FOsRoLqWEeeHZZgwTn_r7Q _ZReqsLXZEee3M-EPgQFctQ">
+    <classes xsi:type="ram:Class" xmi:id="_aRA1ELXZEee3M-EPgQFctQ" name="MediaLink" superTypes="_ZReqsLXZEee3M-EPgQFctQ">
       <operations xmi:id="_k8C0MLqWEeeHZZgwTn_r7Q" name="setMyMediaContent" extendedVisibility="package" returnType="_18Ax9bXYEee3M-EPgQFctQ">
         <parameters xmi:id="_k8C0MbqWEeeHZZgwTn_r7Q" name="newObject" type="_clxF8LXZEee3M-EPgQFctQ"/>
       </operations>
@@ -86,7 +86,6 @@
       <associationEnds xmi:id="_k4QgYbqWEeeHZZgwTn_r7Q" name="myMediaLink" lowerBound="1" assoc="_k4RHcLqWEeeHZZgwTn_r7Q" featureSelection="_k8FQcLqWEeeHZZgwTn_r7Q"/>
       <attributes xmi:id="_E01x8LXaEee3M-EPgQFctQ" name="mediaType" type="_92Da4LXZEee3M-EPgQFctQ"/>
     </classes>
-    <classes xsi:type="ram:Class" xmi:id="_FOsRoLqWEeeHZZgwTn_r7Q" name="UrlObject"/>
     <classes xsi:type="ram:Class" xmi:id="__dwi4LqXEeetHptzB0NRXA" name="MediaProcessQuery" superTypes="_BYw3ALqYEeetHptzB0NRXA">
       <attributes xmi:id="_KimwYLqYEeetHptzB0NRXA" name="typeOption" type="_92Da4LXZEee3M-EPgQFctQ"/>
       <attributes xmi:id="_QPxukLqYEeetHptzB0NRXA" name="sizeLimit" type="_18Ax9rXYEee3M-EPgQFctQ"/>
@@ -116,7 +115,7 @@
   <layout xmi:id="_18Ax_rXYEee3M-EPgQFctQ">
     <containers xmi:id="_18Ax_7XYEee3M-EPgQFctQ" key="_18Ax8bXYEee3M-EPgQFctQ">
       <value xmi:id="_ZRfRwLXZEee3M-EPgQFctQ" key="_ZReqsLXZEee3M-EPgQFctQ">
-        <value xmi:id="_ZRfRwbXZEee3M-EPgQFctQ" x="70.0" y="70.0"/>
+        <value xmi:id="_ZRfRwbXZEee3M-EPgQFctQ" x="184.0" y="70.0"/>
       </value>
       <value xmi:id="_aRBcILXZEee3M-EPgQFctQ" key="_aRA1ELXZEee3M-EPgQFctQ">
         <value xmi:id="_aRBcIbXZEee3M-EPgQFctQ" x="186.0" y="222.0"/>
@@ -126,9 +125,6 @@
       </value>
       <value xmi:id="_92EB8LXZEee3M-EPgQFctQ" key="_92Da4LXZEee3M-EPgQFctQ">
         <value xmi:id="_92EB8bXZEee3M-EPgQFctQ" x="826.0" y="70.0"/>
-      </value>
-      <value xmi:id="_FOs4sLqWEeeHZZgwTn_r7Q" key="_FOsRoLqWEeeHZZgwTn_r7Q">
-        <value xmi:id="_FOs4sbqWEeeHZZgwTn_r7Q" x="326.0" y="70.0"/>
       </value>
       <value xmi:id="__dxxALqXEeetHptzB0NRXA" key="__dwi4LqXEeetHptzB0NRXA">
         <value xmi:id="__dxxAbqXEeetHptzB0NRXA" x="546.0" y="222.0"/>
