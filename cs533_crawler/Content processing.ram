@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_nUmHgLXWEee3M-EPgQFctQ" name="Content processing ">
+  <modelReuses xmi:id="_XUWzULqSEeeHZZgwTn_r7Q">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_XUWzUbqSEeeHZZgwTn_r7Q">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTI8LqSEeeHZZgwTn_r7Q"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_XUWzUrqSEeeHZZgwTn_r7Q" to="_nUmHsbXWEee3M-EPgQFctQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJErqSEeeHZZgwTn_r7Q"/>
+        <operationMappings xmi:id="_XUWzU7qSEeeHZZgwTn_r7Q" to="_XUlc0LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJE7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzVLqSEeeHZZgwTn_r7Q" to="_XUmD4LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJFrqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzVbqSEeeHZZgwTn_r7Q" to="_XUmq8LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJGLqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzVrqSEeeHZZgwTn_r7Q" to="_XUn5ELqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJGrqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzV7qSEeeHZZgwTn_r7Q" to="_XUogILqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJHbqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzWLqSEeeHZZgwTn_r7Q" to="_XUpHMLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJH7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzWbqSEeeHZZgwTn_r7Q" to="_XUpuQLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJIbqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_XUWzWrqSEeeHZZgwTn_r7Q" to="_nUmHvrXWEee3M-EPgQFctQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTI8rqSEeeHZZgwTn_r7Q"/>
+        <operationMappings xmi:id="_XUWzW7qSEeeHZZgwTn_r7Q" to="_XUbEwLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTI87qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzXLqSEeeHZZgwTn_r7Q" to="_XUcS4LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTI97qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzXbqSEeeHZZgwTn_r7Q" to="_XUc58LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTI-rqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzXrqSEeeHZZgwTn_r7Q" to="_XUdhALqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTI_bqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzX7qSEeeHZZgwTn_r7Q" to="_XUevILqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTI_7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzYLqSEeeHZZgwTn_r7Q" to="_XUfWMLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJArqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzYbqSEeeHZZgwTn_r7Q" to="_XUf9QLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJBLqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzYrqSEeeHZZgwTn_r7Q" to="_XUgkULqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJBrqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzY7qSEeeHZZgwTn_r7Q" to="_XUhycLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJCLqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzZLqSEeeHZZgwTn_r7Q" to="_XUiZgLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJCrqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzZbqSEeeHZZgwTn_r7Q" to="_XUjAkLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJDLqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzZrqSEeeHZZgwTn_r7Q" to="_XUjAkbqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJDbqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzZ7qSEeeHZZgwTn_r7Q" to="_XUkOsLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJD7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XUWzaLqSEeeHZZgwTn_r7Q" to="_XUkOsbqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJELqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="Cs533_crawler.core#_XUWzabqSEeeHZZgwTn_r7Q"/>
+  </modelReuses>
+  <modelReuses xmi:id="_XVmwgLqSEeeHZZgwTn_r7Q">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_XVmwgbqSEeeHZZgwTn_r7Q">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGILqSEeeHZZgwTn_r7Q"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_XVmwgrqSEeeHZZgwTn_r7Q" to="_nUmHvrXWEee3M-EPgQFctQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGQrqSEeeHZZgwTn_r7Q"/>
+        <operationMappings xmi:id="_XVmwg7qSEeeHZZgwTn_r7Q" to="_XUevILqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGQ7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwhLqSEeeHZZgwTn_r7Q" to="_XUgkULqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGRrqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwhbqSEeeHZZgwTn_r7Q" to="_XUhycLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGSLqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwhrqSEeeHZZgwTn_r7Q" to="_XUc58LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGSrqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwh7qSEeeHZZgwTn_r7Q" to="_XUdhALqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGTbqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwiLqSEeeHZZgwTn_r7Q" to="_XUfWMLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGT7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwibqSEeeHZZgwTn_r7Q" to="_XUf9QLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGUbqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_XVmwirqSEeeHZZgwTn_r7Q" to="_nUmHsbXWEee3M-EPgQFctQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGIrqSEeeHZZgwTn_r7Q"/>
+        <operationMappings xmi:id="_XVmwi7qSEeeHZZgwTn_r7Q" to="_XVrB8LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGI7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwjLqSEeeHZZgwTn_r7Q" to="_XUn5ELqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGJ7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwjbqSEeeHZZgwTn_r7Q" to="_XUogILqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGKrqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwjrqSEeeHZZgwTn_r7Q" to="_XVsQELqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGLLqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwj7qSEeeHZZgwTn_r7Q" to="_XUpHMLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGL7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwkLqSEeeHZZgwTn_r7Q" to="_XUpuQLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGMbqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwkbqSEeeHZZgwTn_r7Q" to="_XUlc0LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGM7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwkrqSEeeHZZgwTn_r7Q" to="_XVs3ILqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGNrqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwk7qSEeeHZZgwTn_r7Q" to="_XUmD4LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGOLqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwlLqSEeeHZZgwTn_r7Q" to="_XUmq8LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGOrqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwlbqSEeeHZZgwTn_r7Q" to="_XVteMLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGPLqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwlrqSEeeHZZgwTn_r7Q" to="_XVteMbqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGPbqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwl7qSEeeHZZgwTn_r7Q" to="_XVuFQLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGP7qSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+        <operationMappings xmi:id="_XVmwmLqSEeeHZZgwTn_r7Q" to="_XVusULqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGQLqSEeeHZZgwTn_r7Q"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="Cs533_crawler.core#_XVmwmbqSEeeHZZgwTn_r7Q"/>
+  </modelReuses>
+  <modelReuses xmi:id="_l9EwMLqSEeeHZZgwTn_r7Q">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_l9EwMbqSEeeHZZgwTn_r7Q">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8kLXUEee3M-EPgQFctQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_l9EwMrqSEeeHZZgwTn_r7Q" to="_nUmHvrXWEee3M-EPgQFctQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8krXUEee3M-EPgQFctQ"/>
+        <operationMappings xmi:id="_l9EwM7qSEeeHZZgwTn_r7Q" to="_l9JosLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8k7XUEee3M-EPgQFctQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l9EwNLqSEeeHZZgwTn_r7Q" to="_l9KPwLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8lbXUEee3M-EPgQFctQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l9EwNbqSEeeHZZgwTn_r7Q" to="_l9K20LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8lrXUEee3M-EPgQFctQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_l9EwNrqSEeeHZZgwTn_r7Q" to="_lAGxoLqSEeeHZZgwTn_r7Q">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8mbXUEee3M-EPgQFctQ"/>
+        <operationMappings xmi:id="_l9EwN7qSEeeHZZgwTn_r7Q" to="_l9HzgLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8mrXUEee3M-EPgQFctQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l9EwOLqSEeeHZZgwTn_r7Q" to="_l9IakLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8nLXUEee3M-EPgQFctQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l9EwObqSEeeHZZgwTn_r7Q" to="_l9JBoLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8nrXUEee3M-EPgQFctQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="Cs533_crawler.core#_l9EwOrqSEeeHZZgwTn_r7Q"/>
+  </modelReuses>
+  <modelReuses xmi:id="_l9ME8LqSEeeHZZgwTn_r7Q">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_l9ME8bqSEeeHZZgwTn_r7Q">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8kLXUEee3M-EPgQFctQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_l9ME8rqSEeeHZZgwTn_r7Q" to="_lAGxoLqSEeeHZZgwTn_r7Q">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8krXUEee3M-EPgQFctQ"/>
+        <operationMappings xmi:id="_l9ME87qSEeeHZZgwTn_r7Q" to="_l9IakLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8k7XUEee3M-EPgQFctQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l9ME9LqSEeeHZZgwTn_r7Q" to="_l9JBoLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8lbXUEee3M-EPgQFctQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l9ME9bqSEeeHZZgwTn_r7Q" to="_l9HzgLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8lrXUEee3M-EPgQFctQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_l9ME9rqSEeeHZZgwTn_r7Q" to="_nUmHvrXWEee3M-EPgQFctQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8mbXUEee3M-EPgQFctQ"/>
+        <operationMappings xmi:id="_l9ME97qSEeeHZZgwTn_r7Q" to="_l9K20LqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8mrXUEee3M-EPgQFctQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l9ME-LqSEeeHZZgwTn_r7Q" to="_l9JosLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8nLXUEee3M-EPgQFctQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l9ME-bqSEeeHZZgwTn_r7Q" to="_l9KPwLqSEeeHZZgwTn_r7Q">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_hTo8nrXUEee3M-EPgQFctQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="Cs533_crawler.core#_l9ME-rqSEeeHZZgwTn_r7Q"/>
+  </modelReuses>
+  <realizes href="Cs533_crawler.core#_Hf_YULXUEee3M-EPgQFctQ"/>
+  <coreConcern href="Cs533_crawler.core#_FSlsobXUEee3M-EPgQFctQ"/>
+  <structuralView xmi:id="_nUmHqbXWEee3M-EPgQFctQ">
+    <classes xsi:type="ram:Class" xmi:id="_nUmHsbXWEee3M-EPgQFctQ" name="SourceCode">
+      <operations xmi:id="_XUlc0LqSEeeHZZgwTn_r7Q" name="addSimpleMyProcessedContent" extendedVisibility="protected" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUlc0bqSEeeHZZgwTn_r7Q" name="index" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+        <parameters xmi:id="_XUlc0rqSEeeHZZgwTn_r7Q" name="a" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUmD4LqSEeeHZZgwTn_r7Q" name="addSimpleMyProcessedContent" extendedVisibility="protected" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUmD4bqSEeeHZZgwTn_r7Q" name="a" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUmq8LqSEeeHZZgwTn_r7Q" name="removeSimpleMyProcessedContent" extendedVisibility="protected" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUmq8bqSEeeHZZgwTn_r7Q" name="a" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUn5ELqSEeeHZZgwTn_r7Q" name="addMyProcessedContentAt" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUn5EbqSEeeHZZgwTn_r7Q" name="index" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+        <parameters xmi:id="_XUn5ErqSEeeHZZgwTn_r7Q" name="a" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUogILqSEeeHZZgwTn_r7Q" name="removeMyProcessedContentAt" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUogIbqSEeeHZZgwTn_r7Q" name="index" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUpHMLqSEeeHZZgwTn_r7Q" name="addMyProcessedContent" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUpHMbqSEeeHZZgwTn_r7Q" name="a" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUpuQLqSEeeHZZgwTn_r7Q" name="removeMyProcessedContent" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUpuQbqSEeeHZZgwTn_r7Q" name="a" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XVrB8LqSEeeHZZgwTn_r7Q" name="addMyProcessedContentAt" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XVrB8bqSEeeHZZgwTn_r7Q" name="index" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+        <parameters xmi:id="_XVrB8rqSEeeHZZgwTn_r7Q" name="a" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+        <parameters xmi:id="_XVrB87qSEeeHZZgwTn_r7Q" name="indexOpposite" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XVsQELqSEeeHZZgwTn_r7Q" name="addMyProcessedContent" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XVsQEbqSEeeHZZgwTn_r7Q" name="a" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+        <parameters xmi:id="_XVsQErqSEeeHZZgwTn_r7Q" name="indexOpposite" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XVs3ILqSEeeHZZgwTn_r7Q" name="getMyProcessedContentAt" extendedVisibility="package" returnType="_nUmHvrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XVs3IbqSEeeHZZgwTn_r7Q" name="index" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XVteMLqSEeeHZZgwTn_r7Q" name="createMyProcessedContent" extendedVisibility="package" returnType="_nUmHsbXWEee3M-EPgQFctQ" operationType="Constructor"/>
+      <operations xmi:id="_XVteMbqSEeeHZZgwTn_r7Q" name="containsMyProcessedContent" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XVteMrqSEeeHZZgwTn_r7Q" name="a" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XVuFQLqSEeeHZZgwTn_r7Q" name="sizeOfMyProcessedContent" extendedVisibility="package" returnType="_nUmHy7XWEee3M-EPgQFctQ"/>
+      <operations xmi:id="_XVusULqSEeeHZZgwTn_r7Q" name="getMyProcessedContent" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToOrdered_OrderedToPlain_PlainBidirectional_PlainToOrdered_PlainToPlain.ram#_XVjGVLqSEeeHZZgwTn_r7Q"/>
+      </operations>
+      <associationEnds xmi:id="_CK34ILqSEeeHZZgwTn_r7Q" name="myProcessedContent" upperBound="-1" assoc="_CK34IrqSEeeHZZgwTn_r7Q" featureSelection="_XVmwgLqSEeeHZZgwTn_r7Q"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_nUmHvrXWEee3M-EPgQFctQ" name="ProcessedContent">
+      <operations xmi:id="_XUbEwLqSEeeHZZgwTn_r7Q" name="addMySourceCodeAt" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUbEwbqSEeeHZZgwTn_r7Q" name="index" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+        <parameters xmi:id="_XUbEwrqSEeeHZZgwTn_r7Q" name="a" type="_nUmHsbXWEee3M-EPgQFctQ"/>
+        <parameters xmi:id="_XUbEw7qSEeeHZZgwTn_r7Q" name="indexOpposite" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUcS4LqSEeeHZZgwTn_r7Q" name="addMySourceCode" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUcS4bqSEeeHZZgwTn_r7Q" name="a" type="_nUmHsbXWEee3M-EPgQFctQ"/>
+        <parameters xmi:id="_XUcS4rqSEeeHZZgwTn_r7Q" name="indexOpposite" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUc58LqSEeeHZZgwTn_r7Q" name="addMySourceCodeAt" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUc58bqSEeeHZZgwTn_r7Q" name="index" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+        <parameters xmi:id="_XUc58rqSEeeHZZgwTn_r7Q" name="a" type="_nUmHsbXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUdhALqSEeeHZZgwTn_r7Q" name="removeMySourceCodeAt" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUdhAbqSEeeHZZgwTn_r7Q" name="index" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUevILqSEeeHZZgwTn_r7Q" name="addSimpleMySourceCode" extendedVisibility="protected" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUevIbqSEeeHZZgwTn_r7Q" name="index" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+        <parameters xmi:id="_XUevIrqSEeeHZZgwTn_r7Q" name="a" type="_nUmHsbXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUfWMLqSEeeHZZgwTn_r7Q" name="addMySourceCode" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUfWMbqSEeeHZZgwTn_r7Q" name="a" type="_nUmHsbXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUf9QLqSEeeHZZgwTn_r7Q" name="removeMySourceCode" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUf9QbqSEeeHZZgwTn_r7Q" name="a" type="_nUmHsbXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUgkULqSEeeHZZgwTn_r7Q" name="addSimpleMySourceCode" extendedVisibility="protected" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUhLYLqSEeeHZZgwTn_r7Q" name="a" type="_nUmHsbXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUhycLqSEeeHZZgwTn_r7Q" name="removeSimpleMySourceCode" extendedVisibility="protected" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUhycbqSEeeHZZgwTn_r7Q" name="a" type="_nUmHsbXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUiZgLqSEeeHZZgwTn_r7Q" name="getMySourceCodeAt" extendedVisibility="package" returnType="_nUmHsbXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUiZgbqSEeeHZZgwTn_r7Q" name="index" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUjAkLqSEeeHZZgwTn_r7Q" name="createMySourceCode" extendedVisibility="package" returnType="_nUmHvrXWEee3M-EPgQFctQ" operationType="Constructor"/>
+      <operations xmi:id="_XUjAkbqSEeeHZZgwTn_r7Q" name="containsMySourceCode" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_XUjAkrqSEeeHZZgwTn_r7Q" name="a" type="_nUmHsbXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_XUkOsLqSEeeHZZgwTn_r7Q" name="sizeOfMySourceCode" extendedVisibility="package" returnType="_nUmHy7XWEee3M-EPgQFctQ"/>
+      <operations xmi:id="_XUkOsbqSEeeHZZgwTn_r7Q" name="getMySourceCode" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_MinimumOrderedToOrdered_MinimumOrderedToPlain_MinimumPlainBidirectional_OrderedBidirectional_PlainToOrdered_PlainToPlain.ram#_XUTJJLqSEeeHZZgwTn_r7Q"/>
+      </operations>
+      <operations xmi:id="_l9JosLqSEeeHZZgwTn_r7Q" name="setSimpleMyUserQuery" extendedVisibility="protected" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_l9JosbqSEeeHZZgwTn_r7Q" name="newObject" type="_lAGxoLqSEeeHZZgwTn_r7Q"/>
+      </operations>
+      <operations xmi:id="_l9KPwLqSEeeHZZgwTn_r7Q" name="getMyUserQuery" extendedVisibility="package" returnType="_lAGxoLqSEeeHZZgwTn_r7Q"/>
+      <operations xmi:id="_l9K20LqSEeeHZZgwTn_r7Q" name="setMyUserQuery" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_l9K20bqSEeeHZZgwTn_r7Q" name="a" type="_lAGxoLqSEeeHZZgwTn_r7Q"/>
+      </operations>
+      <associationEnds xmi:id="_CK34IbqSEeeHZZgwTn_r7Q" name="mySourceCode" lowerBound="1" upperBound="-1" assoc="_CK34IrqSEeeHZZgwTn_r7Q" featureSelection="_XUWzULqSEeeHZZgwTn_r7Q"/>
+      <associationEnds xmi:id="_l8zqcLqSEeeHZZgwTn_r7Q" name="myUserQuery" lowerBound="1" assoc="_l8zqcbqSEeeHZZgwTn_r7Q" featureSelection="_l9ME8LqSEeeHZZgwTn_r7Q"/>
+      <attributes xmi:id="_clO3ELqSEeeHZZgwTn_r7Q" name="storageSizeInBytes" type="_nUmHy7XWEee3M-EPgQFctQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_lAGxoLqSEeeHZZgwTn_r7Q" name="UserQuery">
+      <operations xmi:id="_l9HzgLqSEeeHZZgwTn_r7Q" name="setMyProcessedContent" extendedVisibility="package" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_l9HzgbqSEeeHZZgwTn_r7Q" name="newObject" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_l9IakLqSEeeHZZgwTn_r7Q" name="setSimpleMyProcessedContent" extendedVisibility="protected" returnType="_nUmHyrXWEee3M-EPgQFctQ">
+        <parameters xmi:id="_l9IakbqSEeeHZZgwTn_r7Q" name="newObject" type="_nUmHvrXWEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_l9JBoLqSEeeHZZgwTn_r7Q" name="getMyProcessedContent" extendedVisibility="package" returnType="_nUmHvrXWEee3M-EPgQFctQ"/>
+      <associationEnds xmi:id="_l8zDYLqSEeeHZZgwTn_r7Q" name="myProcessedContent" lowerBound="1" assoc="_l8zqcbqSEeeHZZgwTn_r7Q" featureSelection="_l9EwMLqSEeeHZZgwTn_r7Q"/>
+    </classes>
+    <associations xmi:id="_CK34IrqSEeeHZZgwTn_r7Q" name="PageContent_ProcessedContent" ends="_CK34ILqSEeeHZZgwTn_r7Q _CK34IbqSEeeHZZgwTn_r7Q"/>
+    <associations xmi:id="_l8zqcbqSEeeHZZgwTn_r7Q" name="UserQuery_ProcessedContent" ends="_l8zDYLqSEeeHZZgwTn_r7Q _l8zqcLqSEeeHZZgwTn_r7Q"/>
+    <types xsi:type="ram:RVoid" xmi:id="_nUmHyLXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_nUmHybXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_nUmHyrXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_nUmHy7XWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_nUmHzLXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RString" xmi:id="_nUmHzbXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_nUmHzrXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_nUmHz7XWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_nUmH0LXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_nUmH0bXWEee3M-EPgQFctQ"/>
+  </structuralView>
+  <instantiations xmi:id="_nUmH0rXWEee3M-EPgQFctQ">
+    <source xsi:type="ram:Aspect" href="Cs533_crawler.ram#_szVTALXUEee3M-EPgQFctQ"/>
+  </instantiations>
+  <layout xmi:id="_nUmH07XWEee3M-EPgQFctQ">
+    <containers xmi:id="_nUmH1LXWEee3M-EPgQFctQ" key="_nUmHqbXWEee3M-EPgQFctQ">
+      <value xmi:id="_nUmH17XWEee3M-EPgQFctQ" key="_nUmHsbXWEee3M-EPgQFctQ">
+        <value xmi:id="_nUmH2LXWEee3M-EPgQFctQ" x="228.91359" y="314.99722"/>
+      </value>
+      <value xmi:id="_nUmH2bXWEee3M-EPgQFctQ" key="_nUmHvrXWEee3M-EPgQFctQ">
+        <value xmi:id="_nUmH2rXWEee3M-EPgQFctQ" x="210.57907" y="558.035"/>
+      </value>
+      <value xmi:id="_lAH_wLqSEeeHZZgwTn_r7Q" key="_lAGxoLqSEeeHZZgwTn_r7Q">
+        <value xmi:id="_lAH_wbqSEeeHZZgwTn_r7Q" x="-254.29631" y="565.03973"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

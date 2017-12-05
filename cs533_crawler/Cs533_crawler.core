@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_FSlsobXUEee3M-EPgQFctQ" name="Cs533_crawler">
+  <models xsi:type="core:COREFeatureModel" href="#_FSp-ELXUEee3M-EPgQFctQ"/>
+  <models xsi:type="ram:Aspect" href="Cs533_crawler.ram#_szVTALXUEee3M-EPgQFctQ"/>
+  <models xsi:type="ram:Aspect" href="Page%20getter.ram#_5yFocLXUEee3M-EPgQFctQ"/>
+  <models xsi:type="ram:Aspect" href="Authentication%20handling.ram#_TUGqILXVEee3M-EPgQFctQ"/>
+  <models xsi:type="ram:Aspect" href="Login%20handling.ram#_tNUD0LXVEee3M-EPgQFctQ"/>
+  <models xsi:type="ram:Aspect" href="Robot%20detection%20handling.ram#_MWFSoLXWEee3M-EPgQFctQ"/>
+  <models xsi:type="ram:Aspect" href="Content%20processing.ram#_nUmHgLXWEee3M-EPgQFctQ"/>
+  <models xsi:type="ram:Aspect" href="text%20processing.ram#_7ccxILXXEee3M-EPgQFctQ"/>
+  <models xsi:type="ram:Aspect" href="media%20processing.ram#_18Ax8LXYEee3M-EPgQFctQ"/>
+  <models xsi:type="core:COREImpactModel" href="#_xDZV0LXbEee29_VxnPCrHQ"/>
+  <featureModel xmi:id="_FSp-ELXUEee3M-EPgQFctQ" coreConcern="_FSlsobXUEee3M-EPgQFctQ" root="_FSp-EbXUEee3M-EPgQFctQ">
+    <features xmi:id="_FSp-EbXUEee3M-EPgQFctQ" name="Cs533_crawler" children="_Gwa8kLXUEee3M-EPgQFctQ _HLpgALXUEee3M-EPgQFctQ _Hf_YULXUEee3M-EPgQFctQ">
+      <realizedBy xsi:type="ram:Aspect" href="Cs533_crawler.ram#_szVTALXUEee3M-EPgQFctQ"/>
+    </features>
+    <features xmi:id="_Gwa8kLXUEee3M-EPgQFctQ" name="Page getter" parent="_FSp-EbXUEee3M-EPgQFctQ" parentRelationship="Mandatory">
+      <realizedBy xsi:type="ram:Aspect" href="Page%20getter.ram#_5yFocLXUEee3M-EPgQFctQ"/>
+      <reuses xmi:id="_pqFOVtbqEeeMIpa-WMks1A" name="Association_PageGetter_WebPage" selectedConfiguration="_pqFOV9bqEeeMIpa-WMks1A">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_pqFOV9bqEeeMIpa-WMks1A" name="Automatic selection" reuse="_pqFOVtbqEeeMIpa-WMks1A">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_m3KzFdbwEeeMIpa-WMks1A" name="Association_PageGetter_URL" selectedConfiguration="_m3KzFtbwEeeMIpa-WMks1A">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_m3KzFtbwEeeMIpa-WMks1A" name="Automatic selection" reuse="_m3KzFdbwEeeMIpa-WMks1A">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_KC0ohtbxEee0N8lISWNjbw" name="Association_PageGetter_Scanner" selectedConfiguration="_KC0oh9bxEee0N8lISWNjbw">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_KC0oh9bxEee0N8lISWNjbw" name="Automatic selection" reuse="_KC0ohtbxEee0N8lISWNjbw">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_KelXdtbxEee0N8lISWNjbw" name="Association_PageGetter_InputStream" selectedConfiguration="_KelXd9bxEee0N8lISWNjbw">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_KelXd9bxEee0N8lISWNjbw" name="Automatic selection" reuse="_KelXdtbxEee0N8lISWNjbw">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+    </features>
+    <features xmi:id="_HLpgALXUEee3M-EPgQFctQ" name="Authentication handling" children="_JP5PsLXUEee3M-EPgQFctQ _Jiro0LXUEee3M-EPgQFctQ" parent="_FSp-EbXUEee3M-EPgQFctQ" parentRelationship="Optional">
+      <realizedBy xsi:type="ram:Aspect" href="Authentication%20handling.ram#_TUGqILXVEee3M-EPgQFctQ"/>
+      <reuses xmi:id="_CkN6Y7qUEeeHZZgwTn_r7Q" name="Association_AuthPage_AuthSession" selectedConfiguration="_CkN6ZbqUEeeHZZgwTn_r7Q">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_CkN6ZLqUEeeHZZgwTn_r7Q" name="User selection">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#__6WrkACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+        <configurations xmi:id="_CkN6ZbqUEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_CkN6Y7qUEeeHZZgwTn_r7Q">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#__6WrkACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_CkaHkLqUEeeHZZgwTn_r7Q" name="Association_AuthSession_AuthPage" selectedConfiguration="_CkaHkbqUEeeHZZgwTn_r7Q">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_CkaHkbqUEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_CkaHkLqUEeeHZZgwTn_r7Q">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_A4UO8JFuEeWSP-8jReRTpg"/>
+          <selected href="Reused_Association/Association.core#_8RGMMJFtEeWSP-8jReRTpg"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_doodatbkEeeMIpa-WMks1A" name="Association_WebPage_AuthPage" selectedConfiguration="_dooda9bkEeeMIpa-WMks1A">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_dooda9bkEeeMIpa-WMks1A" name="Automatic selection" reuse="_doodatbkEeeMIpa-WMks1A">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_dowZOtbkEeeMIpa-WMks1A" name="Association_AuthPage_WebPage" selectedConfiguration="_dowZO9bkEeeMIpa-WMks1A">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_dowZO9bkEeeMIpa-WMks1A" name="Automatic selection" reuse="_dowZOtbkEeeMIpa-WMks1A">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+    </features>
+    <features xmi:id="_Hf_YULXUEee3M-EPgQFctQ" name="Page content processing" children="_KAN5YLXUEee3M-EPgQFctQ _KTmIYLXUEee3M-EPgQFctQ" parent="_FSp-EbXUEee3M-EPgQFctQ" parentRelationship="Mandatory">
+      <realizedBy xsi:type="ram:Aspect" href="Content%20processing.ram#_nUmHgLXWEee3M-EPgQFctQ"/>
+      <reuses xmi:id="_XUWzabqSEeeHZZgwTn_r7Q" name="Association_ProcessedContent_SourceCode" selectedConfiguration="_XUWza7qSEeeHZZgwTn_r7Q">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_XUWzarqSEeeHZZgwTn_r7Q" name="User selection">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+          <selected href="Reused_Association/Association.core#__6WrkACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+        <configurations xmi:id="_XUWza7qSEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_XUWzabqSEeeHZZgwTn_r7Q">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_8RGMMJFtEeWSP-8jReRTpg"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+          <selected href="Reused_Association/Association.core#_A4UO8JFuEeWSP-8jReRTpg"/>
+          <selected href="Reused_Association/Association.core#__6WrkACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_LEwHcACXEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_XVmwmbqSEeeHZZgwTn_r7Q" name="Association_SourceCode_ProcessedContent" selectedConfiguration="_XVmwm7qSEeeHZZgwTn_r7Q">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_XVmwmrqSEeeHZZgwTn_r7Q" name="User selection">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#__6WrkACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+        </configurations>
+        <configurations xmi:id="_XVmwm7qSEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_XVmwmbqSEeeHZZgwTn_r7Q">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_8RGMMJFtEeWSP-8jReRTpg"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+          <selected href="Reused_Association/Association.core#_A4UO8JFuEeWSP-8jReRTpg"/>
+          <selected href="Reused_Association/Association.core#__6WrkACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_l9EwOrqSEeeHZZgwTn_r7Q" name="Association_UserQuery_ProcessedContent" selectedConfiguration="_l9EwO7qSEeeHZZgwTn_r7Q">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_l9EwO7qSEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_l9EwOrqSEeeHZZgwTn_r7Q">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_l9ME-rqSEeeHZZgwTn_r7Q" name="Association_ProcessedContent_UserQuery" selectedConfiguration="_l9ME-7qSEeeHZZgwTn_r7Q">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_l9ME-7qSEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_l9ME-rqSEeeHZZgwTn_r7Q">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+        </configurations>
+      </reuses>
+    </features>
+    <features xmi:id="_JP5PsLXUEee3M-EPgQFctQ" name="Login handling" parent="_HLpgALXUEee3M-EPgQFctQ" parentRelationship="OR">
+      <realizedBy xsi:type="ram:Aspect" href="Login%20handling.ram#_tNUD0LXVEee3M-EPgQFctQ"/>
+      <reuses xmi:id="_As8MgLqQEeeHZZgwTn_r7Q" name="Association_User_LoginPage" selectedConfiguration="_As8MgrqQEeeHZZgwTn_r7Q">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_As8MgbqQEeeHZZgwTn_r7Q" name="User selection">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_CYjzYACXEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
+        </configurations>
+        <configurations xmi:id="_As8MgrqQEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_As8MgLqQEeeHZZgwTn_r7Q">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_CYjzYACXEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_8RGMMJFtEeWSP-8jReRTpg"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_AtJA0LqQEeeHZZgwTn_r7Q" name="Association_LoginPage_User" selectedConfiguration="_AtJA0rqQEeeHZZgwTn_r7Q">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_AtJA0bqQEeeHZZgwTn_r7Q" name="User selection">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_CYjzYACXEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+        </configurations>
+        <configurations xmi:id="_AtJA0rqQEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_AtJA0LqQEeeHZZgwTn_r7Q">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_SKylUH2DEeWIy5MXlHNV-w"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_8wYC4ACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_CYjzYACXEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_Tbip0HQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_8RGMMJFtEeWSP-8jReRTpg"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+        </configurations>
+      </reuses>
+    </features>
+    <features xmi:id="_Jiro0LXUEee3M-EPgQFctQ" name="Robot detection handling" parent="_HLpgALXUEee3M-EPgQFctQ" parentRelationship="OR">
+      <realizedBy xsi:type="ram:Aspect" href="Robot%20detection%20handling.ram#_MWFSoLXWEee3M-EPgQFctQ"/>
+    </features>
+    <features xmi:id="_KAN5YLXUEee3M-EPgQFctQ" name="text processing" parent="_Hf_YULXUEee3M-EPgQFctQ" parentRelationship="OR">
+      <realizedBy xsi:type="ram:Aspect" href="text%20processing.ram#_7ccxILXXEee3M-EPgQFctQ"/>
+    </features>
+    <features xmi:id="_KTmIYLXUEee3M-EPgQFctQ" name="media processing" parent="_Hf_YULXUEee3M-EPgQFctQ" parentRelationship="OR">
+      <realizedBy xsi:type="ram:Aspect" href="media%20processing.ram#_18Ax8LXYEee3M-EPgQFctQ"/>
+      <reuses xmi:id="_k4SVmrqWEeeHZZgwTn_r7Q" name="Association_MediaResource_MediaContent" selectedConfiguration="_k4SVm7qWEeeHZZgwTn_r7Q">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_k4SVm7qWEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_k4SVmrqWEeeHZZgwTn_r7Q">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_k8FQerqWEeeHZZgwTn_r7Q" name="Association_MediaContent_MediaResource" selectedConfiguration="_k8FQe7qWEeeHZZgwTn_r7Q">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_k8FQe7qWEeeHZZgwTn_r7Q" name="Automatic selection" reuse="_k8FQerqWEeeHZZgwTn_r7Q">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+        </configurations>
+      </reuses>
+    </features>
+  </featureModel>
+  <impactModel xmi:id="_xDZV0LXbEee29_VxnPCrHQ" name="Impact Model" coreConcern="_FSlsobXUEee3M-EPgQFctQ">
+    <impactModelElements xmi:id="_xDbLALXbEee29_VxnPCrHQ" name="Data type diversity" scalingFactor="10.0" offset="-30.0" incoming="_-ADSILXeEee29_VxnPCrHQ _-f2zkLXeEee29_VxnPCrHQ"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_4DhwsLXbEee29_VxnPCrHQ" name="media processing" scalingFactor="1.0" outgoing="_-f2zkLXeEee29_VxnPCrHQ" represents="_KTmIYLXUEee3M-EPgQFctQ"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_5Ukh0LXbEee29_VxnPCrHQ" name="text processing" scalingFactor="1.0" outgoing="_-ADSILXeEee29_VxnPCrHQ" represents="_KAN5YLXUEee3M-EPgQFctQ"/>
+    <impactModelElements xmi:id="_e_hucLXgEee29_VxnPCrHQ" name="Machine Space Cost" scalingFactor="6.6666665" offset="100.0" incoming="_CjpHMLXhEee29_VxnPCrHQ _DI2GALXhEee29_VxnPCrHQ"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_Bn1mQLXhEee29_VxnPCrHQ" name="Robot detection handling" scalingFactor="1.0" outgoing="_CjpHMLXhEee29_VxnPCrHQ" represents="_Jiro0LXUEee3M-EPgQFctQ"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_CEd34LXhEee29_VxnPCrHQ" name="media processing" scalingFactor="1.0" outgoing="_DI2GALXhEee29_VxnPCrHQ" represents="_KTmIYLXUEee3M-EPgQFctQ"/>
+    <impactModelElements xmi:id="_EpJbILXhEee29_VxnPCrHQ" name="User convenience" scalingFactor="10.0" offset="100.0" incoming="_H9kZQLXhEee29_VxnPCrHQ"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_Gws9gLXhEee29_VxnPCrHQ" name="Login handling" scalingFactor="1.0" outgoing="_H9kZQLXhEee29_VxnPCrHQ" represents="_JP5PsLXUEee3M-EPgQFctQ"/>
+    <impactModelElements xmi:id="_lC04MLXhEee29_VxnPCrHQ" name="Authentiation robustness" scalingFactor="6.6666665" incoming="_rnSqwLXhEee29_VxnPCrHQ _r6sH4LXhEee29_VxnPCrHQ"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_nXzykLXhEee29_VxnPCrHQ" name="Login handling" scalingFactor="1.0" outgoing="_rnSqwLXhEee29_VxnPCrHQ" represents="_JP5PsLXUEee3M-EPgQFctQ"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_qGOgoLXhEee29_VxnPCrHQ" name="Robot detection handling" scalingFactor="1.0" outgoing="_r6sH4LXhEee29_VxnPCrHQ" represents="_Jiro0LXUEee3M-EPgQFctQ"/>
+    <impactModelElements xmi:id="__i0MkLqYEeetHptzB0NRXA" name="Reduce Running time" scalingFactor="6.6666665" offset="100.0" incoming="_Fn4GULqZEeetHptzB0NRXA _F5_xELqZEeetHptzB0NRXA"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_DZx3ELqZEeetHptzB0NRXA" name="Robot detection handling" scalingFactor="1.0" outgoing="_F5_xELqZEeetHptzB0NRXA" represents="_Jiro0LXUEee3M-EPgQFctQ"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_D4lS8LqZEeetHptzB0NRXA" name="media processing" scalingFactor="1.0" outgoing="_Fn4GULqZEeetHptzB0NRXA" represents="_KTmIYLXUEee3M-EPgQFctQ"/>
+    <layouts xmi:id="_xDbLAbXbEee29_VxnPCrHQ" key="_xDbLALXbEee29_VxnPCrHQ">
+      <value xmi:id="_xDbLArXbEee29_VxnPCrHQ" key="_xDbLALXbEee29_VxnPCrHQ">
+        <value xmi:id="_xDbLA7XbEee29_VxnPCrHQ" x="487.29276" y="38.394463"/>
+      </value>
+      <value xmi:id="_4DhwsbXbEee29_VxnPCrHQ" key="_4DhwsLXbEee29_VxnPCrHQ">
+        <value xmi:id="_4DhwsrXbEee29_VxnPCrHQ" x="550.88477" y="302.54422"/>
+      </value>
+      <value xmi:id="_5Ukh0bXbEee29_VxnPCrHQ" key="_5Ukh0LXbEee29_VxnPCrHQ">
+        <value xmi:id="_5Ukh0rXbEee29_VxnPCrHQ" x="276.50485" y="443.1981"/>
+      </value>
+    </layouts>
+    <layouts xmi:id="_e_hucbXgEee29_VxnPCrHQ" key="_e_hucLXgEee29_VxnPCrHQ">
+      <value xmi:id="_e_hucrXgEee29_VxnPCrHQ" key="_e_hucLXgEee29_VxnPCrHQ">
+        <value xmi:id="_e_huc7XgEee29_VxnPCrHQ" x="525.9999" y="328.0001"/>
+      </value>
+      <value xmi:id="_Bn1mQbXhEee29_VxnPCrHQ" key="_Bn1mQLXhEee29_VxnPCrHQ">
+        <value xmi:id="_Bn1mQrXhEee29_VxnPCrHQ" x="395.67188" y="576.0"/>
+      </value>
+      <value xmi:id="_CEd34bXhEee29_VxnPCrHQ" key="_CEd34LXhEee29_VxnPCrHQ">
+        <value xmi:id="_CEd34rXhEee29_VxnPCrHQ" x="687.90796" y="575.0"/>
+      </value>
+    </layouts>
+    <layouts xmi:id="_EpJbIbXhEee29_VxnPCrHQ" key="_EpJbILXhEee29_VxnPCrHQ">
+      <value xmi:id="_EpJbIrXhEee29_VxnPCrHQ" key="_EpJbILXhEee29_VxnPCrHQ">
+        <value xmi:id="_EpJbI7XhEee29_VxnPCrHQ" x="512.0" y="50.0"/>
+      </value>
+      <value xmi:id="_Gws9gbXhEee29_VxnPCrHQ" key="_Gws9gLXhEee29_VxnPCrHQ">
+        <value xmi:id="_Gws9grXhEee29_VxnPCrHQ" x="333.58914" y="416.99988"/>
+      </value>
+    </layouts>
+    <layouts xmi:id="_lC04MbXhEee29_VxnPCrHQ" key="_lC04MLXhEee29_VxnPCrHQ">
+      <value xmi:id="_lC04MrXhEee29_VxnPCrHQ" key="_lC04MLXhEee29_VxnPCrHQ">
+        <value xmi:id="_lC04M7XhEee29_VxnPCrHQ" x="512.0" y="50.0"/>
+      </value>
+      <value xmi:id="_nXzykbXhEee29_VxnPCrHQ" key="_nXzykLXhEee29_VxnPCrHQ">
+        <value xmi:id="_nXzykrXhEee29_VxnPCrHQ" x="293.1074" y="302.99994"/>
+      </value>
+      <value xmi:id="_qGOgobXhEee29_VxnPCrHQ" key="_qGOgoLXhEee29_VxnPCrHQ">
+        <value xmi:id="_qGOgorXhEee29_VxnPCrHQ" x="706.5189" y="293.99988"/>
+      </value>
+    </layouts>
+    <layouts xmi:id="__i0MkbqYEeetHptzB0NRXA" key="__i0MkLqYEeetHptzB0NRXA">
+      <value xmi:id="__i0MkrqYEeetHptzB0NRXA" key="__i0MkLqYEeetHptzB0NRXA">
+        <value xmi:id="__i0zoLqYEeetHptzB0NRXA" x="475.49997" y="159.00015"/>
+      </value>
+      <value xmi:id="_DZx3EbqZEeetHptzB0NRXA" key="_DZx3ELqZEeetHptzB0NRXA">
+        <value xmi:id="_DZx3ErqZEeetHptzB0NRXA" x="729.8163" y="473.0"/>
+      </value>
+      <value xmi:id="_D4lS8bqZEeetHptzB0NRXA" key="_D4lS8LqZEeetHptzB0NRXA">
+        <value xmi:id="_D4lS8rqZEeetHptzB0NRXA" x="357.24466" y="493.0"/>
+      </value>
+      <value xmi:id="_GfCeMLqhEeeO1vN6csGpBg" key="_EpJbILXhEee29_VxnPCrHQ">
+        <value xmi:id="_GfCeMbqhEeeO1vN6csGpBg" x="205.74979" y="167.99986"/>
+      </value>
+      <value xmi:id="_GfETYLqhEeeO1vN6csGpBg" key="_Gws9gLXhEee29_VxnPCrHQ">
+        <value xmi:id="_GfETYbqhEeeO1vN6csGpBg" x="94.99979" y="267.99982"/>
+      </value>
+    </layouts>
+    <contributions xmi:id="_-ADSILXeEee29_VxnPCrHQ" relativeWeight="3" source="_5Ukh0LXbEee29_VxnPCrHQ" impacts="_xDbLALXbEee29_VxnPCrHQ"/>
+    <contributions xmi:id="_-f2zkLXeEee29_VxnPCrHQ" relativeWeight="10" source="_4DhwsLXbEee29_VxnPCrHQ" impacts="_xDbLALXbEee29_VxnPCrHQ"/>
+    <contributions xmi:id="_CjpHMLXhEee29_VxnPCrHQ" relativeWeight="-5" source="_Bn1mQLXhEee29_VxnPCrHQ" impacts="_e_hucLXgEee29_VxnPCrHQ"/>
+    <contributions xmi:id="_DI2GALXhEee29_VxnPCrHQ" relativeWeight="-10" source="_CEd34LXhEee29_VxnPCrHQ" impacts="_e_hucLXgEee29_VxnPCrHQ"/>
+    <contributions xmi:id="_H9kZQLXhEee29_VxnPCrHQ" relativeWeight="-10" source="_Gws9gLXhEee29_VxnPCrHQ" impacts="_EpJbILXhEee29_VxnPCrHQ"/>
+    <contributions xmi:id="_rnSqwLXhEee29_VxnPCrHQ" relativeWeight="5" source="_nXzykLXhEee29_VxnPCrHQ" impacts="_lC04MLXhEee29_VxnPCrHQ"/>
+    <contributions xmi:id="_r6sH4LXhEee29_VxnPCrHQ" relativeWeight="10" source="_qGOgoLXhEee29_VxnPCrHQ" impacts="_lC04MLXhEee29_VxnPCrHQ"/>
+    <contributions xmi:id="_Fn4GULqZEeetHptzB0NRXA" relativeWeight="-5" source="_D4lS8LqZEeetHptzB0NRXA" impacts="__i0MkLqYEeetHptzB0NRXA"/>
+    <contributions xmi:id="_F5_xELqZEeetHptzB0NRXA" relativeWeight="-10" source="_DZx3ELqZEeetHptzB0NRXA" impacts="__i0MkLqYEeetHptzB0NRXA"/>
+  </impactModel>
+</core:COREConcern>

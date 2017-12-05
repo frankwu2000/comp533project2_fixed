@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_FIo4QK72EeerXYhM3_RZQQ" name="UnregisteredVehicles">
+  <realizes href="ETR.core#_TyhIMK71EeerXYhM3_RZQQ"/>
+  <coreConcern href="ETR.core#_yKSUsK7xEeerXYhM3_RZQQ"/>
+  <structuralView xmi:id="_FIo4Qa72EeerXYhM3_RZQQ">
+    <classes xsi:type="ram:Class" xmi:id="_FIo4Qq72EeerXYhM3_RZQQ" name="GovernmentVehicleLookupService"/>
+    <types xsi:type="ram:RVoid" xmi:id="_FIo4Q672EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_FIo4RK72EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_FIo4Ra72EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_FIo4Rq72EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_FIo4R672EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RString" xmi:id="_FIo4SK72EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_FIo4Sa72EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_FIo4Sq72EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_FIo4S672EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_FIo4TK72EeerXYhM3_RZQQ"/>
+  </structuralView>
+  <instantiations xmi:id="_FIo4Ta72EeerXYhM3_RZQQ">
+    <source xsi:type="ram:Aspect" href="ETR.ram#_zG5G4K7xEeerXYhM3_RZQQ"/>
+  </instantiations>
+  <layout xmi:id="_FIo4Tq72EeerXYhM3_RZQQ">
+    <containers xmi:id="_FIo4T672EeerXYhM3_RZQQ" key="_FIo4Qa72EeerXYhM3_RZQQ">
+      <value xmi:id="_FIo4UK72EeerXYhM3_RZQQ" key="_FIo4Qq72EeerXYhM3_RZQQ">
+        <value xmi:id="_FIo4Ua72EeerXYhM3_RZQQ" x="811.20654" y="324.20688"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,38 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww14800\viewh13240\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Crawler Concern Project - Feedback for Part 1 (95/100)\
+\
+The text accompanying your report gave me an excellent overview of what I needed to know. The only thing that was not completely clear was whether or not you are planning to support the processing of sites or whether you focus on a single page. (20/20)\
+\
+Feature Model: 25/25\
+Content / scope of features: perfect\
+Number of proposed features: perfect\
+Relationships between features: perfect\
+Comments on relationships:\
+- It makes a lot of sense that page getter and page content processing is mandatory. Very good.\
+\
+Impact Model: 25/25\
+Appropriateness / type of Goals: Excellent\
+Number of Goals: Excellent\
+Explanation of contribution values: Good\
+Comments:\
+\
+Domain Model: 25/30\
+Modularization of Domain Model: Excellent\
+Concepts in the Domain Model: Good\
+Comments:\
+- It is interesting that you made the MediaLink a kind of ProcessedContent, but the MediaContent is not a kind of ProcessedContent. I assume this is to reflect the fact that the MediaContent is never part of the page, but stored separate from the page.\
+- Why is the multiplicity of myMediaResource 1 and not 0..*? Can\'92t there be many links to the same MediaContent?\
+- I don\'92t understand the relationship between AuthPage and WebPage. Is this modelling the fact that a webpage might have an authentication page that it (automatically) directs the user to? If yes, then why is the multiplicity on myAuthPage 1 and not 0..1?\
+- If your crawler also crawls entire sites, then maybe the AuthPage should be linked to a site?\
+- Is it true that authentication input can always be stored within one single string (like you modelled in Authentication Handling)? In Login Handling you define username and password fields for the user. How is AuthenticationInput used in this case? Maybe the authentication input type should be partial, i.e., user-defined? Or maybe there could be a new feature, UserDefined Authentication that would provide a partial input type\'85\
+- Although your feature model theoretically allows it, your domain model seems to not be able to support a page with robot detection and login. This is because you are using inheritance rather than merge to add robot detection and login handling to the auth page.\
+- What does the size attribute in ProcessedContent stand for? Bytes used in memory?\
+\
+Estimated feasibility of design:\
+- Looks doable depending on how efficiently you can use external libraries. Please also provide a sample application that reuses your concern. Ideally it would be great if you could generate executable code! Just a simple app that allows you to input some query and a URL and then display the processed (text) content.}

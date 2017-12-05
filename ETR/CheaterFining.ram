@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_XNi9QK74EeerXYhM3_RZQQ" name="CheaterFining">
+  <realizes href="ETR.core#_HjI54K74EeerXYhM3_RZQQ"/>
+  <coreConcern href="ETR.core#_yKSUsK7xEeerXYhM3_RZQQ"/>
+  <structuralView xmi:id="_XNi9Qa74EeerXYhM3_RZQQ">
+    <types xsi:type="ram:RVoid" xmi:id="_XNi9Q674EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_XNi9RK74EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_XNi9Ra74EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_XNi9Rq74EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_XNi9R674EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RString" xmi:id="_XNi9SK74EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_XNi9Sa74EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_XNi9Sq74EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_XNi9S674EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_XNi9TK74EeerXYhM3_RZQQ"/>
+  </structuralView>
+  <instantiations xmi:id="_XNi9Ta74EeerXYhM3_RZQQ">
+    <source xsi:type="ram:Aspect" href="Registration.ram#_cYgYgK7zEeerXYhM3_RZQQ"/>
+  </instantiations>
+  <instantiations xmi:id="_uIxi4K74EeerXYhM3_RZQQ">
+    <source xsi:type="ram:Aspect" href="AutomatedClassification.ram#_yrgrEK70EeerXYhM3_RZQQ"/>
+  </instantiations>
+  <layout xmi:id="_XNi9Tq74EeerXYhM3_RZQQ">
+    <containers xmi:id="_XNi9T674EeerXYhM3_RZQQ" key="_XNi9Qa74EeerXYhM3_RZQQ"/>
+  </layout>
+</ram:Aspect>

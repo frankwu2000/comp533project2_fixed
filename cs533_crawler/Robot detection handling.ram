@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_MWFSoLXWEee3M-EPgQFctQ" name="Robot detection handling">
+  <realizes href="Cs533_crawler.core#_Jiro0LXUEee3M-EPgQFctQ"/>
+  <coreConcern href="Cs533_crawler.core#_FSlsobXUEee3M-EPgQFctQ"/>
+  <structuralView xmi:id="_MWFSu7XWEee3M-EPgQFctQ">
+    <classes xsi:type="ram:Class" xmi:id="_MWFSy7XWEee3M-EPgQFctQ" name="RobotDetectPage" superTypes="_MWFS07XWEee3M-EPgQFctQ">
+      <attributes xmi:id="_I0zyALXbEee3M-EPgQFctQ" name="robotDetectMethod" type="_MWFS37XWEee3M-EPgQFctQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_MWFS07XWEee3M-EPgQFctQ" name="AuthPage"/>
+    <types xsi:type="ram:RVoid" xmi:id="_MWFS1bXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_MWFS1rXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_MWFS17XWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_MWFS2LXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_MWFS2bXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RString" xmi:id="_MWFS2rXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_MWFS27XWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_MWFS3LXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_MWFS3bXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_MWFS3rXWEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:REnum" xmi:id="_MWFS37XWEee3M-EPgQFctQ" name="RobotDetectMethod">
+      <literals xmi:id="_MWFS4LXWEee3M-EPgQFctQ" name="Capcha"/>
+      <literals xmi:id="_MWFS4bXWEee3M-EPgQFctQ" name="Click"/>
+    </types>
+  </structuralView>
+  <instantiations xmi:id="_MWFS4rXWEee3M-EPgQFctQ">
+    <source xsi:type="ram:Aspect" href="Authentication%20handling.ram#_TUGqILXVEee3M-EPgQFctQ"/>
+  </instantiations>
+  <layout xmi:id="_MWFS47XWEee3M-EPgQFctQ">
+    <containers xmi:id="_MWFS5LXWEee3M-EPgQFctQ" key="_MWFSu7XWEee3M-EPgQFctQ">
+      <value xmi:id="_MWFS57XWEee3M-EPgQFctQ" key="_MWFSy7XWEee3M-EPgQFctQ">
+        <value xmi:id="_MWFS6LXWEee3M-EPgQFctQ" x="636.00006" y="529.3647"/>
+      </value>
+      <value xmi:id="_MWFS6bXWEee3M-EPgQFctQ" key="_MWFS37XWEee3M-EPgQFctQ">
+        <value xmi:id="_MWFS6rXWEee3M-EPgQFctQ" x="701.50006" y="87.00032"/>
+      </value>
+      <value xmi:id="_MWFS7bXWEee3M-EPgQFctQ" key="_MWFS07XWEee3M-EPgQFctQ">
+        <value xmi:id="_MWFS7rXWEee3M-EPgQFctQ" x="678.99994" y="255.99994"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

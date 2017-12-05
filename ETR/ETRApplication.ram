@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_BAHKYK77Eeeu9YVp-PXt5Q" name="ETRApplication">
+  <structuralView xmi:id="_BAHKYa77Eeeu9YVp-PXt5Q">
+    <classes xsi:type="ram:Class" xmi:id="_BAHKYq77Eeeu9YVp-PXt5Q" name="Transponder">
+      <operations xmi:id="_BAHKY677Eeeu9YVp-PXt5Q" name="setRegisteredVehicle" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKZK77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKZa77Eeeu9YVp-PXt5Q" name="setSimpleRegisteredVehicle" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKZq77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKZ677Eeeu9YVp-PXt5Q" name="getRegisteredVehicle" extendedVisibility="package" returnType="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHKaK77Eeeu9YVp-PXt5Q" name="setSimpleRegisteredTo" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKaa77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKaq77Eeeu9YVp-PXt5Q" name="getRegisteredTo" extendedVisibility="package" returnType="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHKa677Eeeu9YVp-PXt5Q" name="setRegisteredTo" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKbK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHKba77Eeeu9YVp-PXt5Q" name="registeredVehicle" assoc="_BAHx1K77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Registration.ram#__Sl80K7zEeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHKbq77Eeeu9YVp-PXt5Q" name="registeredTo" assoc="_BAHx2K77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Registration.ram#_gee58K70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <attributes xmi:id="_BAHKb677Eeeu9YVp-PXt5Q" name="active" type="_BAHx3a77Eeeu9YVp-PXt5Q"/>
+      <attributes xmi:id="_BAHKcK77Eeeu9YVp-PXt5Q" name="id" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHKca77Eeeu9YVp-PXt5Q" name="Account">
+      <operations xmi:id="_BAHKcq77Eeeu9YVp-PXt5Q" name="addPaymentHistoryAt" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKc677Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHKdK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKda77Eeeu9YVp-PXt5Q" name="removePaymentHistoryAt" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKdq77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKd677Eeeu9YVp-PXt5Q" name="addSimplePaymentHistory" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKeK77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHKea77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKeq77Eeeu9YVp-PXt5Q" name="addPaymentHistory" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKe677Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKfK77Eeeu9YVp-PXt5Q" name="removePaymentHistory" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKfa77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKfq77Eeeu9YVp-PXt5Q" name="getPaymentHistoryAt" extendedVisibility="package" returnType="_BAHKnq77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKf677Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKgK77Eeeu9YVp-PXt5Q" name="addSimplePaymentHistory" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKga77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKgq77Eeeu9YVp-PXt5Q" name="removeSimplePaymentHistory" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKg677Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKhK77Eeeu9YVp-PXt5Q" name="createPaymentHistory" extendedVisibility="package" returnType="_BAHKca77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHKha77Eeeu9YVp-PXt5Q" name="containsPaymentHistory" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKhq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKh677Eeeu9YVp-PXt5Q" name="sizeOfPaymentHistory" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHKiK77Eeeu9YVp-PXt5Q" name="getPaymentHistory" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OrderedBidirectional_OrderedToOne_PlainBidirectional_PlainToOne.ram#_lkPS8670EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHKia77Eeeu9YVp-PXt5Q" name="setSimpleLinkedTo" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKiq77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHLfa77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKi677Eeeu9YVp-PXt5Q" name="addRegisteredTransponders" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKjK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKYq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKja77Eeeu9YVp-PXt5Q" name="removeRegisteredTransponders" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKjq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKYq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKj677Eeeu9YVp-PXt5Q" name="addSimpleRegisteredTransponders" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKkK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKYq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKka77Eeeu9YVp-PXt5Q" name="removeSimpleRegisteredTransponders" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKkq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKYq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKk677Eeeu9YVp-PXt5Q" name="createRegisteredTransponders" extendedVisibility="package" returnType="_BAHKca77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHKlK77Eeeu9YVp-PXt5Q" name="containsRegisteredTransponders" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKla77Eeeu9YVp-PXt5Q" name="a" type="_BAHKYq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKlq77Eeeu9YVp-PXt5Q" name="sizeOfRegisteredTransponders" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHKl677Eeeu9YVp-PXt5Q" name="getRegisteredTransponders" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCaK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHKmK77Eeeu9YVp-PXt5Q" name="getLinkedTo" extendedVisibility="package" returnType="_BAHLfa77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHKma77Eeeu9YVp-PXt5Q" name="setLinkedTo" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKmq77Eeeu9YVp-PXt5Q" name="a" type="_BAHLfa77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHKm677Eeeu9YVp-PXt5Q" name="paymentHistory" upperBound="-1" assoc="_BAHxyq77Eeeu9YVp-PXt5Q">
+        <featureSelection href="RegisteredPayment.ram#_p4en0a73EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHKnK77Eeeu9YVp-PXt5Q" name="linkedTo" lowerBound="1" assoc="_BAHx1a77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Registration.ram#_hIECca70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHKna77Eeeu9YVp-PXt5Q" name="registeredTransponders" upperBound="-1" assoc="_BAHx2K77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Registration.ram#_geQQcK70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHKnq77Eeeu9YVp-PXt5Q" name="Payment">
+      <operations xmi:id="_BAHKn677Eeeu9YVp-PXt5Q" name="setSimpleLinkedAccount" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKoK77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKoa77Eeeu9YVp-PXt5Q" name="getLinkedAccount" extendedVisibility="package" returnType="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHKoq77Eeeu9YVp-PXt5Q" name="setLinkedAccount" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKo677Eeeu9YVp-PXt5Q" name="a" type="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKpK77Eeeu9YVp-PXt5Q" name="setLinkedAccount" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKpa77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKca77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHKpq77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKp677Eeeu9YVp-PXt5Q" name="setSimpleMadeBy" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKqK77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHLfa77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKqa77Eeeu9YVp-PXt5Q" name="addCoveredTrips" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKqq77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHKq677Eeeu9YVp-PXt5Q" name="indexOpposite" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKrK77Eeeu9YVp-PXt5Q" name="addCoveredTrips" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKra77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKrq77Eeeu9YVp-PXt5Q" name="removeCoveredTrips" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKr677Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKsK77Eeeu9YVp-PXt5Q" name="addSimpleCoveredTrips" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKsa77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKsq77Eeeu9YVp-PXt5Q" name="removeSimpleCoveredTrips" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKs677Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKtK77Eeeu9YVp-PXt5Q" name="createCoveredTrips" extendedVisibility="package" returnType="_BAHKnq77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHKta77Eeeu9YVp-PXt5Q" name="containsCoveredTrips" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKtq77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKt677Eeeu9YVp-PXt5Q" name="sizeOfCoveredTrips" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHKuK77Eeeu9YVp-PXt5Q" name="getCoveredTrips" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_PlainBidirectional_PlainToOrdered_PlainToPlain_Unordered.ram#_63X8lq74EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHKua77Eeeu9YVp-PXt5Q" name="getMadeBy" extendedVisibility="package" returnType="_BAHLfa77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHKuq77Eeeu9YVp-PXt5Q" name="setMadeBy" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKu677Eeeu9YVp-PXt5Q" name="a" type="_BAHLfa77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKvK77Eeeu9YVp-PXt5Q" name="setMadeBy" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKva77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHLfa77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHKvq77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHKv677Eeeu9YVp-PXt5Q" name="linkedAccount" assoc="_BAHxyq77Eeeu9YVp-PXt5Q">
+        <featureSelection href="RegisteredPayment.ram#_p4en5K73EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHKwK77Eeeu9YVp-PXt5Q" name="madeBy" lowerBound="1" assoc="_BAHxz677Eeeu9YVp-PXt5Q">
+        <featureSelection href="Payment.ram#_7l7Ega74EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHKwa77Eeeu9YVp-PXt5Q" name="coveredTrips" upperBound="-1" assoc="_BAHx0K77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Payment.ram#_63ZKkK74EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <attributes xmi:id="_BAHKwq77Eeeu9YVp-PXt5Q" name="kind" type="_BAHx5a77Eeeu9YVp-PXt5Q"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHKw677Eeeu9YVp-PXt5Q" name="Light">
+      <operations xmi:id="_BAHKxK77Eeeu9YVp-PXt5Q" name="setSimpleMyGantry" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKxa77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKxq77Eeeu9YVp-PXt5Q" name="getMyGantry" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHKx677Eeeu9YVp-PXt5Q" name="setMyGantry" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKyK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHKya77Eeeu9YVp-PXt5Q" name="myGantry" lowerBound="1" assoc="_BAHxy677Eeeu9YVp-PXt5Q">
+        <featureSelection href="NightRecognition.ram#_vHAXsK72EeerXYhM3_RZQQ"/>
+      </associationEnds>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHKyq77Eeeu9YVp-PXt5Q" name="Gantry">
+      <operations xmi:id="_BAHKy677Eeeu9YVp-PXt5Q" name="addLights" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKzK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKw677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKza77Eeeu9YVp-PXt5Q" name="removeLights" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHKzq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKw677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHKz677Eeeu9YVp-PXt5Q" name="addSimpleLights" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK0K77Eeeu9YVp-PXt5Q" name="a" type="_BAHKw677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK0a77Eeeu9YVp-PXt5Q" name="removeSimpleLights" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK0q77Eeeu9YVp-PXt5Q" name="a" type="_BAHKw677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK0677Eeeu9YVp-PXt5Q" name="createLights" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHK1K77Eeeu9YVp-PXt5Q" name="containsLights" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK1a77Eeeu9YVp-PXt5Q" name="a" type="_BAHKw677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK1q77Eeeu9YVp-PXt5Q" name="sizeOfLights" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHK1677Eeeu9YVp-PXt5Q" name="getLights" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCaK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHK2K77Eeeu9YVp-PXt5Q" name="setDetector" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK2a77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHLM677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK2q77Eeeu9YVp-PXt5Q" name="setSimpleDetector" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK2677Eeeu9YVp-PXt5Q" name="newObject" type="_BAHLM677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK3K77Eeeu9YVp-PXt5Q" name="getDetector" extendedVisibility="package" returnType="_BAHLM677Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHK3a77Eeeu9YVp-PXt5Q" name="addCameras" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK3q77Eeeu9YVp-PXt5Q" name="a" type="_BAHLb677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK3677Eeeu9YVp-PXt5Q" name="removeCameras" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK4K77Eeeu9YVp-PXt5Q" name="a" type="_BAHLb677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK4a77Eeeu9YVp-PXt5Q" name="addSimpleCameras" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK4q77Eeeu9YVp-PXt5Q" name="a" type="_BAHLb677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK4677Eeeu9YVp-PXt5Q" name="removeSimpleCameras" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK5K77Eeeu9YVp-PXt5Q" name="a" type="_BAHLb677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK5a77Eeeu9YVp-PXt5Q" name="createCameras" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHK5q77Eeeu9YVp-PXt5Q" name="containsCameras" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK5677Eeeu9YVp-PXt5Q" name="a" type="_BAHLb677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK6K77Eeeu9YVp-PXt5Q" name="sizeOfCameras" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHK6a77Eeeu9YVp-PXt5Q" name="getCameras" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCaK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHK6q77Eeeu9YVp-PXt5Q" name="setLaserScanner" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK6677Eeeu9YVp-PXt5Q" name="newObject" type="_BAHLdq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK7K77Eeeu9YVp-PXt5Q" name="setSimpleLaserScanner" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK7a77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHLdq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK7q77Eeeu9YVp-PXt5Q" name="getLaserScanner" extendedVisibility="package" returnType="_BAHLdq77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHK7677Eeeu9YVp-PXt5Q" name="addEnteringTrips" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK8K77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK8a77Eeeu9YVp-PXt5Q" name="removeEnteringTrips" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK8q77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK8677Eeeu9YVp-PXt5Q" name="addSimpleEnteringTrips" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK9K77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK9a77Eeeu9YVp-PXt5Q" name="removeSimpleEnteringTrips" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK9q77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK9677Eeeu9YVp-PXt5Q" name="createEnteringTrips" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHK-K77Eeeu9YVp-PXt5Q" name="containsEnteringTrips" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK-a77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK-q77Eeeu9YVp-PXt5Q" name="sizeOfEnteringTrips" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHK-677Eeeu9YVp-PXt5Q" name="getEnteringTrips" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCaK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHK_K77Eeeu9YVp-PXt5Q" name="addExitingTrips" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK_a77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHK_q77Eeeu9YVp-PXt5Q" name="removeExitingTrips" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHK_677Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLAK77Eeeu9YVp-PXt5Q" name="addSimpleExitingTrips" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLAa77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLAq77Eeeu9YVp-PXt5Q" name="removeSimpleExitingTrips" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLA677Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLBK77Eeeu9YVp-PXt5Q" name="createExitingTrips" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHLBa77Eeeu9YVp-PXt5Q" name="containsExitingTrips" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLBq77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLB677Eeeu9YVp-PXt5Q" name="sizeOfExitingTrips" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLCK77Eeeu9YVp-PXt5Q" name="getExitingTrips" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCaK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHLCa77Eeeu9YVp-PXt5Q" name="addLocatorAntennae" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLCq77Eeeu9YVp-PXt5Q" name="a" type="_BAHxrK77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLC677Eeeu9YVp-PXt5Q" name="removeLocatorAntennae" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLDK77Eeeu9YVp-PXt5Q" name="a" type="_BAHxrK77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLDa77Eeeu9YVp-PXt5Q" name="addSimpleLocatorAntennae" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLDq77Eeeu9YVp-PXt5Q" name="a" type="_BAHxrK77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLD677Eeeu9YVp-PXt5Q" name="removeSimpleLocatorAntennae" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLEK77Eeeu9YVp-PXt5Q" name="a" type="_BAHxrK77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLEa77Eeeu9YVp-PXt5Q" name="createLocatorAntennae" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHLEq77Eeeu9YVp-PXt5Q" name="containsLocatorAntennae" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLE677Eeeu9YVp-PXt5Q" name="a" type="_BAHxrK77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLFK77Eeeu9YVp-PXt5Q" name="sizeOfLocatorAntennae" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLFa77Eeeu9YVp-PXt5Q" name="getLocatorAntennae" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz4-K70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHLFq77Eeeu9YVp-PXt5Q" name="addReadWriteAntennae" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLF677Eeeu9YVp-PXt5Q" name="a" type="_BAHxs677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLGK77Eeeu9YVp-PXt5Q" name="removeReadWriteAntennae" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLGa77Eeeu9YVp-PXt5Q" name="a" type="_BAHxs677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLGq77Eeeu9YVp-PXt5Q" name="addSimpleReadWriteAntennae" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLG677Eeeu9YVp-PXt5Q" name="a" type="_BAHxs677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLHK77Eeeu9YVp-PXt5Q" name="removeSimpleReadWriteAntennae" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLHa77Eeeu9YVp-PXt5Q" name="a" type="_BAHxs677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLHq77Eeeu9YVp-PXt5Q" name="createReadWriteAntennae" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHLH677Eeeu9YVp-PXt5Q" name="containsReadWriteAntennae" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLIK77Eeeu9YVp-PXt5Q" name="a" type="_BAHxs677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLIa77Eeeu9YVp-PXt5Q" name="sizeOfReadWriteAntennae" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLIq77Eeeu9YVp-PXt5Q" name="getReadWriteAntennae" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz4-K70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHLI677Eeeu9YVp-PXt5Q" name="setSimpleMyHighway" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLJK77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHxu677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLJa77Eeeu9YVp-PXt5Q" name="getMyHighway" extendedVisibility="package" returnType="_BAHxu677Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLJq77Eeeu9YVp-PXt5Q" name="setMyHighway" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLJ677Eeeu9YVp-PXt5Q" name="a" type="_BAHxu677Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHLKK77Eeeu9YVp-PXt5Q" name="lights" upperBound="-1" referenceType="Composition" assoc="_BAHxy677Eeeu9YVp-PXt5Q">
+        <featureSelection href="NightRecognition.ram#_vHAXoa72EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLKa77Eeeu9YVp-PXt5Q" name="detector" lowerBound="1" referenceType="Composition" assoc="_BAHxzK77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Automation.ram#_Rftl0a76Eeeu9YVp-PXt5Q"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLKq77Eeeu9YVp-PXt5Q" name="cameras" upperBound="-1" referenceType="Composition" assoc="_BAHxza77Eeeu9YVp-PXt5Q">
+        <featureSelection href="LicensePlateRecognition.ram#_KytUkK71EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLK677Eeeu9YVp-PXt5Q" name="laserScanner" referenceType="Composition" assoc="_BAHxzq77Eeeu9YVp-PXt5Q">
+        <featureSelection href="AutomatedClassification.ram#_594FcK70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLLK77Eeeu9YVp-PXt5Q" name="enteringTrips" upperBound="-1" assoc="_BAHx0q77Eeeu9YVp-PXt5Q">
+        <featureSelection href="TripAccounting.ram#_kvn_AK70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLLa77Eeeu9YVp-PXt5Q" name="exitingTrips" upperBound="-1" assoc="_BAHx0677Eeeu9YVp-PXt5Q">
+        <featureSelection href="TripAccounting.ram#_myenkK70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLLq77Eeeu9YVp-PXt5Q" name="locatorAntennae" lowerBound="1" upperBound="-1" referenceType="Composition" assoc="_BAHx1q77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Registration.ram#_iK1HAK70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLL677Eeeu9YVp-PXt5Q" name="readWriteAntennae" lowerBound="1" upperBound="-1" referenceType="Composition" assoc="_BAHx1677Eeeu9YVp-PXt5Q">
+        <featureSelection href="Registration.ram#_ixqdga70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLMK77Eeeu9YVp-PXt5Q" name="myHighway" lowerBound="1" assoc="_BAHx2a77Eeeu9YVp-PXt5Q">
+        <featureSelection href="ETR.ram#_2c-0wK74EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <attributes xmi:id="_BAHLMa77Eeeu9YVp-PXt5Q" name="kind" type="_BAHx6K77Eeeu9YVp-PXt5Q"/>
+      <attributes xmi:id="_BAHLMq77Eeeu9YVp-PXt5Q" name="position" type="_BAHxuq77Eeeu9YVp-PXt5Q"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHLM677Eeeu9YVp-PXt5Q" name="VehicleDetector">
+      <operations xmi:id="_BAHLNK77Eeeu9YVp-PXt5Q" name="setSimpleMyGantry" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLNa77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLNq77Eeeu9YVp-PXt5Q" name="getMyGantry" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLN677Eeeu9YVp-PXt5Q" name="setMyGantry" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLOK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHLOa77Eeeu9YVp-PXt5Q" name="myGantry" lowerBound="1" assoc="_BAHxzK77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Automation.ram#_Rftl2676Eeeu9YVp-PXt5Q"/>
+      </associationEnds>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHLOq77Eeeu9YVp-PXt5Q" name="Trip">
+      <operations xmi:id="_BAHLO677Eeeu9YVp-PXt5Q" name="setSimpleMyPayment" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLPK77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLPa77Eeeu9YVp-PXt5Q" name="addSimplePaidBy" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLPq77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHLP677Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLQK77Eeeu9YVp-PXt5Q" name="addSimplePaidBy" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLQa77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLQq77Eeeu9YVp-PXt5Q" name="removeSimplePaidBy" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLQ677Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLRK77Eeeu9YVp-PXt5Q" name="addPaidByAt" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLRa77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHLRq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLR677Eeeu9YVp-PXt5Q" name="removePaidByAt" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLSK77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLSa77Eeeu9YVp-PXt5Q" name="addPaidBy" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLSq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLS677Eeeu9YVp-PXt5Q" name="removePaidBy" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLTK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLTa77Eeeu9YVp-PXt5Q" name="getPaidByAt" extendedVisibility="package" returnType="_BAHKnq77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLTq77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLT677Eeeu9YVp-PXt5Q" name="createPaidBy" extendedVisibility="package" returnType="_BAHLOq77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHLUK77Eeeu9YVp-PXt5Q" name="containsPaidBy" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLUa77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLUq77Eeeu9YVp-PXt5Q" name="sizeOfPaidBy" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLU677Eeeu9YVp-PXt5Q" name="getPaidBy" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite_OrderedBidirectional_OrderedToPlain_PlainBidirectional_PlainToPlain.ram#_63yzVq74EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHLVK77Eeeu9YVp-PXt5Q" name="setSimpleMyVehicle" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLVa77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLVq77Eeeu9YVp-PXt5Q" name="setSimpleEntryGantry" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLV677Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLWK77Eeeu9YVp-PXt5Q" name="setSimpleExitGantry" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLWa77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLWq77Eeeu9YVp-PXt5Q" name="getEntryGantry" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLW677Eeeu9YVp-PXt5Q" name="setEntryGantry" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLXK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLXa77Eeeu9YVp-PXt5Q" name="setSimpleUsedVehicle" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLXq77Eeeu9YVp-PXt5Q" name="a" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLX677Eeeu9YVp-PXt5Q" name="getUsedVehicle" extendedVisibility="package" returnType="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLYK77Eeeu9YVp-PXt5Q" name="setUsedVehicle" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLYa77Eeeu9YVp-PXt5Q" name="a" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLYq77Eeeu9YVp-PXt5Q" name="setUsedVehicle" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLY677Eeeu9YVp-PXt5Q" name="newObject" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHLZK77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLZa77Eeeu9YVp-PXt5Q" name="getExitGantry" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLZq77Eeeu9YVp-PXt5Q" name="setExitGantry" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLZ677Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHLaK77Eeeu9YVp-PXt5Q" name="paidBy" upperBound="-1" assoc="_BAHx0K77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Payment.ram#_630BUK74EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLaa77Eeeu9YVp-PXt5Q" name="usedVehicle" lowerBound="1" assoc="_BAHx0a77Eeeu9YVp-PXt5Q">
+        <featureSelection href="TripAccounting.ram#_lk1vwK70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLaq77Eeeu9YVp-PXt5Q" name="entryGantry" lowerBound="1" assoc="_BAHx0q77Eeeu9YVp-PXt5Q">
+        <featureSelection href="TripAccounting.ram#_kvy-IK70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHLa677Eeeu9YVp-PXt5Q" name="exitGantry" lowerBound="1" assoc="_BAHx0677Eeeu9YVp-PXt5Q">
+        <featureSelection href="TripAccounting.ram#_mymjYa70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <attributes xmi:id="_BAHLbK77Eeeu9YVp-PXt5Q" name="determinedLicensePlate" type="_BAHx4K77Eeeu9YVp-PXt5Q"/>
+      <attributes xmi:id="_BAHLba77Eeeu9YVp-PXt5Q" name="determinedKind" type="_BAHx6677Eeeu9YVp-PXt5Q"/>
+      <attributes xmi:id="_BAHLbq77Eeeu9YVp-PXt5Q" name="amountPaid" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHLb677Eeeu9YVp-PXt5Q" name="Camera">
+      <operations xmi:id="_BAHLcK77Eeeu9YVp-PXt5Q" name="setSimpleMyGantry" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLca77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLcq77Eeeu9YVp-PXt5Q" name="getMyGantry" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLc677Eeeu9YVp-PXt5Q" name="setMyGantry" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLdK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHLda77Eeeu9YVp-PXt5Q" name="myGantry" lowerBound="1" assoc="_BAHxza77Eeeu9YVp-PXt5Q">
+        <featureSelection href="LicensePlateRecognition.ram#_Kyy0IK71EeerXYhM3_RZQQ"/>
+      </associationEnds>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHLdq77Eeeu9YVp-PXt5Q" name="LaserScanner">
+      <operations xmi:id="_BAHLd677Eeeu9YVp-PXt5Q" name="setSimpleMyGantry" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLeK77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLea77Eeeu9YVp-PXt5Q" name="getMyGantry" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLeq77Eeeu9YVp-PXt5Q" name="setMyGantry" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLe677Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHLfK77Eeeu9YVp-PXt5Q" name="myGantry" lowerBound="1" assoc="_BAHxzq77Eeeu9YVp-PXt5Q">
+        <featureSelection href="AutomatedClassification.ram#_598W4K70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHLfa77Eeeu9YVp-PXt5Q" name="Person">
+      <operations xmi:id="_BAHLfq77Eeeu9YVp-PXt5Q" name="addMadePaymentsAt" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLf677Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHLgK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLga77Eeeu9YVp-PXt5Q" name="removeMadePaymentsAt" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLgq77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLg677Eeeu9YVp-PXt5Q" name="addSimpleMadePayments" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLhK77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHLha77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLhq77Eeeu9YVp-PXt5Q" name="addMadePayments" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLh677Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLiK77Eeeu9YVp-PXt5Q" name="removeMadePayments" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLia77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLiq77Eeeu9YVp-PXt5Q" name="getMadePaymentsAt" extendedVisibility="package" returnType="_BAHKnq77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLi677Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLjK77Eeeu9YVp-PXt5Q" name="addSimpleMadePayments" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLja77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLjq77Eeeu9YVp-PXt5Q" name="removeSimpleMadePayments" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLj677Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLkK77Eeeu9YVp-PXt5Q" name="createMadePayments" extendedVisibility="package" returnType="_BAHLfa77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHLka77Eeeu9YVp-PXt5Q" name="containsMadePayments" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLkq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKnq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLk677Eeeu9YVp-PXt5Q" name="sizeOfMadePayments" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLlK77Eeeu9YVp-PXt5Q" name="getMadePayments" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OrderedBidirectional_OrderedToOne_PlainBidirectional_PlainToOne.ram#_lkPS8670EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHLla77Eeeu9YVp-PXt5Q" name="addMyAccounts" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLlq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLl677Eeeu9YVp-PXt5Q" name="removeMyAccounts" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLmK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLma77Eeeu9YVp-PXt5Q" name="addSimpleMyAccounts" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLmq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLm677Eeeu9YVp-PXt5Q" name="removeSimpleMyAccounts" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLnK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLna77Eeeu9YVp-PXt5Q" name="createMyAccounts" extendedVisibility="package" returnType="_BAHLfa77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHLnq77Eeeu9YVp-PXt5Q" name="containsMyAccounts" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLn677Eeeu9YVp-PXt5Q" name="a" type="_BAHKca77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHLoK77Eeeu9YVp-PXt5Q" name="sizeOfMyAccounts" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHLoa77Eeeu9YVp-PXt5Q" name="getMyAccounts" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCaK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHLoq77Eeeu9YVp-PXt5Q" name="addOwnedVehicles" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHLo677Eeeu9YVp-PXt5Q" name="a" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxcK77Eeeu9YVp-PXt5Q" name="removeOwnedVehicles" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxca77Eeeu9YVp-PXt5Q" name="a" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxcq77Eeeu9YVp-PXt5Q" name="addSimpleOwnedVehicles" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxc677Eeeu9YVp-PXt5Q" name="a" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxdK77Eeeu9YVp-PXt5Q" name="removeSimpleOwnedVehicles" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxda77Eeeu9YVp-PXt5Q" name="a" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxdq77Eeeu9YVp-PXt5Q" name="createOwnedVehicles" extendedVisibility="package" returnType="_BAHLfa77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHxd677Eeeu9YVp-PXt5Q" name="containsOwnedVehicles" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxeK77Eeeu9YVp-PXt5Q" name="a" type="_BAHxha77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxea77Eeeu9YVp-PXt5Q" name="sizeOfOwnedVehicles" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHxeq77Eeeu9YVp-PXt5Q" name="getOwnedVehicles" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCaK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <associationEnds xmi:id="_BAHxe677Eeeu9YVp-PXt5Q" name="madePayments" upperBound="-1" assoc="_BAHxz677Eeeu9YVp-PXt5Q">
+        <featureSelection href="Payment.ram#_7lyhoK74EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHxfK77Eeeu9YVp-PXt5Q" name="myAccounts" upperBound="-1" assoc="_BAHx1a77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Registration.ram#_hHhP4K70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHxfa77Eeeu9YVp-PXt5Q" name="ownedVehicles" upperBound="-1" assoc="_BAHx2q77Eeeu9YVp-PXt5Q">
+        <featureSelection href="ETR.ram#_3A6oQq74EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <attributes xmi:id="_BAHxfq77Eeeu9YVp-PXt5Q" name="name" type="_BAHx4K77Eeeu9YVp-PXt5Q"/>
+      <attributes xmi:id="_BAHxf677Eeeu9YVp-PXt5Q" name="address" type="_BAHxgK77Eeeu9YVp-PXt5Q"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHxgK77Eeeu9YVp-PXt5Q" name="Address" dataType="true">
+      <attributes xmi:id="_BAHxga77Eeeu9YVp-PXt5Q" name="streetName" type="_BAHx4K77Eeeu9YVp-PXt5Q"/>
+      <attributes xmi:id="_BAHxgq77Eeeu9YVp-PXt5Q" name="streetNumber" type="_BAHx4K77Eeeu9YVp-PXt5Q"/>
+      <attributes xmi:id="_BAHxg677Eeeu9YVp-PXt5Q" name="city" type="_BAHx4K77Eeeu9YVp-PXt5Q"/>
+      <attributes xmi:id="_BAHxhK77Eeeu9YVp-PXt5Q" name="postalCode" type="_BAHx4K77Eeeu9YVp-PXt5Q"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHxha77Eeeu9YVp-PXt5Q" name="Vehicle">
+      <operations xmi:id="_BAHxhq77Eeeu9YVp-PXt5Q" name="addTripHistoryAt" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxh677Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHxiK77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxia77Eeeu9YVp-PXt5Q" name="removeTripHistoryAt" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxiq77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxi677Eeeu9YVp-PXt5Q" name="addSimpleTripHistory" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxjK77Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+        <parameters xmi:id="_BAHxja77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxjq77Eeeu9YVp-PXt5Q" name="addTripHistory" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxj677Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxkK77Eeeu9YVp-PXt5Q" name="removeTripHistory" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxka77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxkq77Eeeu9YVp-PXt5Q" name="getTripHistoryAt" extendedVisibility="package" returnType="_BAHLOq77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxk677Eeeu9YVp-PXt5Q" name="index" type="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxlK77Eeeu9YVp-PXt5Q" name="addSimpleTripHistory" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxla77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxlq77Eeeu9YVp-PXt5Q" name="removeSimpleTripHistory" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxl677Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxmK77Eeeu9YVp-PXt5Q" name="createTripHistory" extendedVisibility="package" returnType="_BAHxha77Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHxma77Eeeu9YVp-PXt5Q" name="containsTripHistory" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxmq77Eeeu9YVp-PXt5Q" name="a" type="_BAHLOq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxm677Eeeu9YVp-PXt5Q" name="sizeOfTripHistory" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHxnK77Eeeu9YVp-PXt5Q" name="getTripHistory" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OrderedBidirectional_OrderedToOne_PlainBidirectional_PlainToOne.ram#_lkPS8670EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_BAHxna77Eeeu9YVp-PXt5Q" name="setSimpleRegisteredTransponder" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxnq77Eeeu9YVp-PXt5Q" name="newObject" type="_BAHKYq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxn677Eeeu9YVp-PXt5Q" name="getRegisteredTransponder" extendedVisibility="package" returnType="_BAHKYq77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHxoK77Eeeu9YVp-PXt5Q" name="setRegisteredTransponder" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxoa77Eeeu9YVp-PXt5Q" name="a" type="_BAHKYq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxoq77Eeeu9YVp-PXt5Q" name="setSimpleOwner" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxo677Eeeu9YVp-PXt5Q" name="newObject" type="_BAHLfa77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxpK77Eeeu9YVp-PXt5Q" name="getOwner" extendedVisibility="package" returnType="_BAHLfa77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHxpa77Eeeu9YVp-PXt5Q" name="setOwner" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxpq77Eeeu9YVp-PXt5Q" name="a" type="_BAHLfa77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHxp677Eeeu9YVp-PXt5Q" name="tripHistory" upperBound="-1" assoc="_BAHx0a77Eeeu9YVp-PXt5Q">
+        <featureSelection href="TripAccounting.ram#_lkQg8K70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHxqK77Eeeu9YVp-PXt5Q" name="registeredTransponder" assoc="_BAHx1K77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Registration.ram#__SpnMK7zEeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <associationEnds xmi:id="_BAHxqa77Eeeu9YVp-PXt5Q" name="owner" assoc="_BAHx2q77Eeeu9YVp-PXt5Q">
+        <featureSelection href="ETR.ram#_3BDLIa74EeerXYhM3_RZQQ"/>
+      </associationEnds>
+      <attributes xmi:id="_BAHxqq77Eeeu9YVp-PXt5Q" name="licencePlate" type="_BAHx4K77Eeeu9YVp-PXt5Q"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHxq677Eeeu9YVp-PXt5Q" name="GovernmentVehicleLookupService"/>
+    <classes xsi:type="ram:Class" xmi:id="_BAHxrK77Eeeu9YVp-PXt5Q" name="LocatorAntenna">
+      <operations xmi:id="_BAHxra77Eeeu9YVp-PXt5Q" name="setSimpleMyGantry" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxrq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxr677Eeeu9YVp-PXt5Q" name="getMyGantry" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHxsK77Eeeu9YVp-PXt5Q" name="setMyGantry" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxsa77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHxsq77Eeeu9YVp-PXt5Q" name="myGantry" lowerBound="1" assoc="_BAHx1q77Eeeu9YVp-PXt5Q">
+        <featureSelection href="Registration.ram#_iK9C0K70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHxs677Eeeu9YVp-PXt5Q" name="ReadWriteAntenna">
+      <operations xmi:id="_BAHxtK77Eeeu9YVp-PXt5Q" name="setSimpleMyGantry" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxta77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxtq77Eeeu9YVp-PXt5Q" name="getMyGantry" extendedVisibility="package" returnType="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHxt677Eeeu9YVp-PXt5Q" name="setMyGantry" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxuK77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <associationEnds xmi:id="_BAHxua77Eeeu9YVp-PXt5Q" name="myGantry" lowerBound="1" assoc="_BAHx1677Eeeu9YVp-PXt5Q">
+        <featureSelection href="Registration.ram#_iyDfEa70EeerXYhM3_RZQQ"/>
+      </associationEnds>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BAHxuq77Eeeu9YVp-PXt5Q" name="Coordinates" dataType="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_BAHxu677Eeeu9YVp-PXt5Q" name="Highway">
+      <operations xmi:id="_BAHxvK77Eeeu9YVp-PXt5Q" name="addGantries" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxva77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxvq77Eeeu9YVp-PXt5Q" name="removeGantries" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxv677Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxwK77Eeeu9YVp-PXt5Q" name="addSimpleGantries" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxwa77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxwq77Eeeu9YVp-PXt5Q" name="removeSimpleGantries" extendedVisibility="protected" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxw677Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxxK77Eeeu9YVp-PXt5Q" name="createGantries" extendedVisibility="package" returnType="_BAHxu677Eeeu9YVp-PXt5Q" operationType="Constructor"/>
+      <operations xmi:id="_BAHxxa77Eeeu9YVp-PXt5Q" name="containsGantries" extendedVisibility="package" returnType="_BAHx3a77Eeeu9YVp-PXt5Q">
+        <parameters xmi:id="_BAHxxq77Eeeu9YVp-PXt5Q" name="a" type="_BAHKyq77Eeeu9YVp-PXt5Q"/>
+      </operations>
+      <operations xmi:id="_BAHxx677Eeeu9YVp-PXt5Q" name="sizeOfGantries" extendedVisibility="package" returnType="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+      <operations xmi:id="_BAHxyK77Eeeu9YVp-PXt5Q" name="getGantries" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCaK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <associationEnds xmi:id="_BAHxya77Eeeu9YVp-PXt5Q" name="gantries" upperBound="-1" referenceType="Composition" assoc="_BAHx2a77Eeeu9YVp-PXt5Q">
+        <featureSelection href="ETR.ram#_2c4uIK74EeerXYhM3_RZQQ"/>
+      </associationEnds>
+    </classes>
+    <associations xmi:id="_BAHxyq77Eeeu9YVp-PXt5Q" name="Payment_Account" ends="_BAHKv677Eeeu9YVp-PXt5Q _BAHKm677Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHxy677Eeeu9YVp-PXt5Q" name="Gantry_Light" ends="_BAHLKK77Eeeu9YVp-PXt5Q _BAHKya77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHxzK77Eeeu9YVp-PXt5Q" name="Gantry_VehicleDetector" ends="_BAHLKa77Eeeu9YVp-PXt5Q _BAHLOa77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHxza77Eeeu9YVp-PXt5Q" name="Gantry_Camera" ends="_BAHLKq77Eeeu9YVp-PXt5Q _BAHLda77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHxzq77Eeeu9YVp-PXt5Q" name="Gantry_LaserScanner" ends="_BAHLK677Eeeu9YVp-PXt5Q _BAHLfK77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHxz677Eeeu9YVp-PXt5Q" name="Payment_Person" ends="_BAHKwK77Eeeu9YVp-PXt5Q _BAHxe677Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx0K77Eeeu9YVp-PXt5Q" name="Payment_Trip" ends="_BAHKwa77Eeeu9YVp-PXt5Q _BAHLaK77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx0a77Eeeu9YVp-PXt5Q" name="Vehicle_Trip" ends="_BAHxp677Eeeu9YVp-PXt5Q _BAHLaa77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx0q77Eeeu9YVp-PXt5Q" name="Trip_Gantry" ends="_BAHLaq77Eeeu9YVp-PXt5Q _BAHLLK77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx0677Eeeu9YVp-PXt5Q" name="Trip_Gantry" ends="_BAHLa677Eeeu9YVp-PXt5Q _BAHLLa77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx1K77Eeeu9YVp-PXt5Q" name="Vehicle_Transponder" ends="_BAHxqK77Eeeu9YVp-PXt5Q _BAHKba77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx1a77Eeeu9YVp-PXt5Q" name="Account_Person" ends="_BAHKnK77Eeeu9YVp-PXt5Q _BAHxfK77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx1q77Eeeu9YVp-PXt5Q" name="Gantry_LocatorAntenna" ends="_BAHLLq77Eeeu9YVp-PXt5Q _BAHxsq77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx1677Eeeu9YVp-PXt5Q" name="Gantry_ReadWriteAntenna" ends="_BAHLL677Eeeu9YVp-PXt5Q _BAHxua77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx2K77Eeeu9YVp-PXt5Q" name="Transponder_Account" ends="_BAHKbq77Eeeu9YVp-PXt5Q _BAHKna77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx2a77Eeeu9YVp-PXt5Q" name="Highway_Gantry" ends="_BAHxya77Eeeu9YVp-PXt5Q _BAHLMK77Eeeu9YVp-PXt5Q"/>
+    <associations xmi:id="_BAHx2q77Eeeu9YVp-PXt5Q" name="Vehicle_Person" ends="_BAHxqa77Eeeu9YVp-PXt5Q _BAHxfa77Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:RVoid" xmi:id="_BAHx2677Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:RAny" xmi:id="_BAHx3K77Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_BAHx3a77Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:RInt" xmi:id="_BAHx3q77Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:RChar" xmi:id="_BAHx3677Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:RString" xmi:id="_BAHx4K77Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:RDouble" xmi:id="_BAHx4a77Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:RFloat" xmi:id="_BAHx4q77Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:RLong" xmi:id="_BAHx4677Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:RByte" xmi:id="_BAHx5K77Eeeu9YVp-PXt5Q"/>
+    <types xsi:type="ram:REnum" xmi:id="_BAHx5a77Eeeu9YVp-PXt5Q" name="PaymentKind">
+      <literals xmi:id="_BAHx5q77Eeeu9YVp-PXt5Q" name="Credit"/>
+      <literals xmi:id="_BAHx5677Eeeu9YVp-PXt5Q" name="Cheque"/>
+    </types>
+    <types xsi:type="ram:REnum" xmi:id="_BAHx6K77Eeeu9YVp-PXt5Q" name="GantryKind">
+      <literals xmi:id="_BAHx6a77Eeeu9YVp-PXt5Q" name="Entry"/>
+      <literals xmi:id="_BAHx6q77Eeeu9YVp-PXt5Q" name="Exit"/>
+    </types>
+    <types xsi:type="ram:REnum" xmi:id="_BAHx6677Eeeu9YVp-PXt5Q" name="VehicleKind">
+      <literals xmi:id="_BAHx7K77Eeeu9YVp-PXt5Q" name="Light"/>
+      <literals xmi:id="_BAHx7a77Eeeu9YVp-PXt5Q" name="Heavy"/>
+    </types>
+  </structuralView>
+  <layout xmi:id="_BAHx7q77Eeeu9YVp-PXt5Q">
+    <containers xmi:id="_BAHx7677Eeeu9YVp-PXt5Q" key="_BAHKYa77Eeeu9YVp-PXt5Q">
+      <value xmi:id="_BAHx8K77Eeeu9YVp-PXt5Q" key="_BAHKYq77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHx8a77Eeeu9YVp-PXt5Q" x="-257.1477" y="787.4472"/>
+      </value>
+      <value xmi:id="_BAHx8q77Eeeu9YVp-PXt5Q" key="_BAHKca77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHx8677Eeeu9YVp-PXt5Q" x="4.6266794" y="681.8078"/>
+      </value>
+      <value xmi:id="_BAHx9K77Eeeu9YVp-PXt5Q" key="_BAHKnq77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHx9a77Eeeu9YVp-PXt5Q" x="320.68555" y="675.05414"/>
+      </value>
+      <value xmi:id="_BAHx9q77Eeeu9YVp-PXt5Q" key="_BAHKw677Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHx9677Eeeu9YVp-PXt5Q" x="1140.9854" y="1005.54004"/>
+      </value>
+      <value xmi:id="_BAHx-K77Eeeu9YVp-PXt5Q" key="_BAHKyq77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHx-a77Eeeu9YVp-PXt5Q" x="795.3431" y="1037.0498"/>
+      </value>
+      <value xmi:id="_BAHx-q77Eeeu9YVp-PXt5Q" key="_BAHLM677Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHx-677Eeeu9YVp-PXt5Q" x="689.5477" y="1343.3236"/>
+      </value>
+      <value xmi:id="_BAHx_K77Eeeu9YVp-PXt5Q" key="_BAHLOq77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHx_a77Eeeu9YVp-PXt5Q" x="270.66147" y="1024.0498"/>
+      </value>
+      <value xmi:id="_BAHx_q77Eeeu9YVp-PXt5Q" key="_BAHLb677Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHx_677Eeeu9YVp-PXt5Q" x="1141.1127" y="1111.8606"/>
+      </value>
+      <value xmi:id="_BAHyAK77Eeeu9YVp-PXt5Q" key="_BAHLdq77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyAa77Eeeu9YVp-PXt5Q" x="1140.9207" y="891.456"/>
+      </value>
+      <value xmi:id="_BAHyAq77Eeeu9YVp-PXt5Q" key="_BAHLfa77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyA677Eeeu9YVp-PXt5Q" x="456.38525" y="835.5523"/>
+      </value>
+      <value xmi:id="_BAHyBK77Eeeu9YVp-PXt5Q" key="_BAHxgK77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyBa77Eeeu9YVp-PXt5Q" x="367.8055" y="1285.8638"/>
+      </value>
+      <value xmi:id="_BAHyBq77Eeeu9YVp-PXt5Q" key="_BAHxha77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyB677Eeeu9YVp-PXt5Q" x="-201.4137" y="1050.744"/>
+      </value>
+      <value xmi:id="_BAHyCK77Eeeu9YVp-PXt5Q" key="_BAHxq677Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyCa77Eeeu9YVp-PXt5Q" x="1052.1127" y="681.7579"/>
+      </value>
+      <value xmi:id="_BAHyCq77Eeeu9YVp-PXt5Q" key="_BAHxrK77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyC677Eeeu9YVp-PXt5Q" x="1134.4808" y="1221.6101"/>
+      </value>
+      <value xmi:id="_BAHyDK77Eeeu9YVp-PXt5Q" key="_BAHxs677Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyDa77Eeeu9YVp-PXt5Q" x="1121.2513" y="1343.3638"/>
+      </value>
+      <value xmi:id="_BAHyDq77Eeeu9YVp-PXt5Q" key="_BAHxuq77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyD677Eeeu9YVp-PXt5Q" x="-346.79996" y="1210.1532"/>
+      </value>
+      <value xmi:id="_BAHyEK77Eeeu9YVp-PXt5Q" key="_BAHxu677Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyEa77Eeeu9YVp-PXt5Q" x="808.69635" y="780.18445"/>
+      </value>
+      <value xmi:id="_BAHyEq77Eeeu9YVp-PXt5Q" key="_BAHx5a77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyE677Eeeu9YVp-PXt5Q" x="-132.74185" y="1211.1532"/>
+      </value>
+      <value xmi:id="_BAHyFK77Eeeu9YVp-PXt5Q" key="_BAHx6K77Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyFa77Eeeu9YVp-PXt5Q" x="129.29398" y="1211.1532"/>
+      </value>
+      <value xmi:id="_BAHyFq77Eeeu9YVp-PXt5Q" key="_BAHx6677Eeeu9YVp-PXt5Q">
+        <value xmi:id="_BAHyF677Eeeu9YVp-PXt5Q" x="129.29398" y="1332.8638"/>
+      </value>
+    </containers>
+  </layout>
+  <wovenAspects xmi:id="_BAHyGK77Eeeu9YVp-PXt5Q" name="ETR">
+    <comesFrom href="ETR.ram#_zG5G4K7xEeerXYhM3_RZQQ"/>
+    <wovenElements xmi:id="_BAHyGa77Eeeu9YVp-PXt5Q" key="_BAHxha77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="ETR.ram#__2j3cK7xEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyGq77Eeeu9YVp-PXt5Q" key="_BAHxcq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_3A-5sK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyG677Eeeu9YVp-PXt5Q" key="_BAHxoq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_GsfNcK7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyHK77Eeeu9YVp-PXt5Q" key="_BAHxvq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_2c8_kK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyHa77Eeeu9YVp-PXt5Q" key="_BAHxea77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_3A_gw674EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyHq77Eeeu9YVp-PXt5Q" key="_BAHLI677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_-LdnkK7xEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyH677Eeeu9YVp-PXt5Q" key="_BAHxqq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="ETR.ram#_BLzMEK7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyIK77Eeeu9YVp-PXt5Q" key="_BAHxpa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_3BAH0q74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyIa77Eeeu9YVp-PXt5Q" key="_BAHLMa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="ETR.ram#_4GRyAK7xEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyIq77Eeeu9YVp-PXt5Q" key="_BAHxwq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_2c8_lK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyI677Eeeu9YVp-PXt5Q" key="_BAHxxK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_2c9moK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyJK77Eeeu9YVp-PXt5Q" key="_BAHxcK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_3A-Soq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyJa77Eeeu9YVp-PXt5Q" key="_BAHxuq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="ETR.ram#_4q2esK7xEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyJq77Eeeu9YVp-PXt5Q" key="_BAHxyK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_2c-NsK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyJ677Eeeu9YVp-PXt5Q" key="_BAHxpK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_3BAH0a74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyKK77Eeeu9YVp-PXt5Q" key="_BAHxeq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_3BAH0K74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyKa77Eeeu9YVp-PXt5Q" key="_BAHLJq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_2c-Nsq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyKq77Eeeu9YVp-PXt5Q" key="_BAHxx677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_2c9mo674EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyK677Eeeu9YVp-PXt5Q" key="_BAHLJa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_2c-Nsa74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyLK77Eeeu9YVp-PXt5Q" key="_BAHxvK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_2c8YgK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyLa77Eeeu9YVp-PXt5Q" key="_BAHxdK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_3A-5sq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyLq77Eeeu9YVp-PXt5Q" key="_BAHxu677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="ETR.ram#_7gtRgK7xEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyL677Eeeu9YVp-PXt5Q" key="_BAHKyq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="ETR.ram#_0Hg2YK7xEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyMK77Eeeu9YVp-PXt5Q" key="_BAHxd677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_3A_gwa74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyMa77Eeeu9YVp-PXt5Q" key="_BAHLMq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="ETR.ram#_6-swoK7xEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyMq77Eeeu9YVp-PXt5Q" key="_BAHLfa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="ETR.ram#__R_KwK7xEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyM677Eeeu9YVp-PXt5Q" key="_BAHxwK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_2c8_kq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyNK77Eeeu9YVp-PXt5Q" key="_BAHxdq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_3A_gwK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyNa77Eeeu9YVp-PXt5Q" key="_BAHLoq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_3A-SoK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyNq77Eeeu9YVp-PXt5Q" key="_BAHxxa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="ETR.ram#_2c9moa74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_BAHyN677Eeeu9YVp-PXt5Q" name="Registration">
+    <comesFrom href="Registration.ram#_cYgYgK7zEeerXYhM3_RZQQ"/>
+    <wovenElements xmi:id="_BAHyOK77Eeeu9YVp-PXt5Q" key="_BAHxtq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_ix_0sK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyOa77Eeeu9YVp-PXt5Q" key="_BAHxtK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_Szg-wa70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyOq77Eeeu9YVp-PXt5Q" key="_BAHxha77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Registration.ram#_5BSW0K7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyO677Eeeu9YVp-PXt5Q" key="_BAHKka77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_geTTwq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyPK77Eeeu9YVp-PXt5Q" key="_BAHKZa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#__SoZEK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyPa77Eeeu9YVp-PXt5Q" key="_BAHKja77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_geSssq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyPq77Eeeu9YVp-PXt5Q" key="_BAHLfa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Registration.ram#_BlX3wK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyP677Eeeu9YVp-PXt5Q" key="_BAHKY677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#__SnyAK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyQK77Eeeu9YVp-PXt5Q" key="_BAHxsK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_iK5_gK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyQa77Eeeu9YVp-PXt5Q" key="_BAHKmK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_hH_J8a70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyQq77Eeeu9YVp-PXt5Q" key="_BAHLEq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_iK4xYa70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyQ677Eeeu9YVp-PXt5Q" key="_BAHLFa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_iK5YcK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyRK77Eeeu9YVp-PXt5Q" key="_BAHLC677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_iK3jQq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyRa77Eeeu9YVp-PXt5Q" key="_BAHLDa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_iK4KUK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyRq77Eeeu9YVp-PXt5Q" key="_BAHxs677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Registration.ram#_Guj_IK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyR677Eeeu9YVp-PXt5Q" key="_BAHLna77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_hH-i4K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHySK77Eeeu9YVp-PXt5Q" key="_BAHKia77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_EnI_oK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHySa77Eeeu9YVp-PXt5Q" key="_BAHKa677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_geVI8K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHySq77Eeeu9YVp-PXt5Q" key="_BAHxoK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#__SpAIa7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyS677Eeeu9YVp-PXt5Q" key="_BAHLnq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_hH-i4a70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyTK77Eeeu9YVp-PXt5Q" key="_BAHKZ677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#__SoZEq7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyTa77Eeeu9YVp-PXt5Q" key="_BAHLGK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_ixtg0K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyTq77Eeeu9YVp-PXt5Q" key="_BAHLla77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_hHjsIK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyT677Eeeu9YVp-PXt5Q" key="_BAHKlq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_geUh4K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyUK77Eeeu9YVp-PXt5Q" key="_BAHxna77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#__SoZE67zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyUa77Eeeu9YVp-PXt5Q" key="_BAHLm677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_hH970K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyUq77Eeeu9YVp-PXt5Q" key="_BAHLl677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_hHjsIq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyU677Eeeu9YVp-PXt5Q" key="_BAHLH677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_ix-mka70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyVK77Eeeu9YVp-PXt5Q" key="_BAHKaq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_geUh4q70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyVa77Eeeu9YVp-PXt5Q" key="_BAHLma77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_hH9UwK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyVq77Eeeu9YVp-PXt5Q" key="_BAHxt677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_ix_0sa70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyV677Eeeu9YVp-PXt5Q" key="_BAHxr677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_iK5Yca70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyWK77Eeeu9YVp-PXt5Q" key="_BAHxn677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#__SpAIK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyWa77Eeeu9YVp-PXt5Q" key="_BAHKcK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="Registration.ram#_7LzGkK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyWq77Eeeu9YVp-PXt5Q" key="_BAHLFK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_iK4xY670EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyW677Eeeu9YVp-PXt5Q" key="_BAHLD677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_iK4KUq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyXK77Eeeu9YVp-PXt5Q" key="_BAHLCa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_iK3jQK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyXa77Eeeu9YVp-PXt5Q" key="_BAHKca77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Registration.ram#_29q5QK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyXq77Eeeu9YVp-PXt5Q" key="_BAHLIa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_ix_NoK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyX677Eeeu9YVp-PXt5Q" key="_BAHLFq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_ixs5wK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyYK77Eeeu9YVp-PXt5Q" key="_BAHLoK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_hH-i4670EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyYa77Eeeu9YVp-PXt5Q" key="_BAHxra77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_LoSuMa70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyYq77Eeeu9YVp-PXt5Q" key="_BAHKyq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Registration.ram#_GRqAsK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyY677Eeeu9YVp-PXt5Q" key="_BAHLHq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_ix-mkK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyZK77Eeeu9YVp-PXt5Q" key="_BAHLIq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_ix_Noa70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyZa77Eeeu9YVp-PXt5Q" key="_BAHKlK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_geT60a70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyZq77Eeeu9YVp-PXt5Q" key="_BAHxrK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Registration.ram#_HpYooK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyZ677Eeeu9YVp-PXt5Q" key="_BAHKaK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_fJBi4q70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyaK77Eeeu9YVp-PXt5Q" key="_BAHLEa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_iK4xYK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyaa77Eeeu9YVp-PXt5Q" key="_BAHKk677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_geT60K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyaq77Eeeu9YVp-PXt5Q" key="_BAHKj677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_geTTwK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHya677Eeeu9YVp-PXt5Q" key="_BAHKma77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_hH_xAK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHybK77Eeeu9YVp-PXt5Q" key="_BAHKi677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_geSssK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyba77Eeeu9YVp-PXt5Q" key="_BAHKl677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_geUh4a70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHybq77Eeeu9YVp-PXt5Q" key="_BAHKYq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Registration.ram#_5c8YEK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyb677Eeeu9YVp-PXt5Q" key="_BAHLGq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_ix9YcK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHycK77Eeeu9YVp-PXt5Q" key="_BAHLoa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_hH_J8K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyca77Eeeu9YVp-PXt5Q" key="_BAHLHK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Registration.ram#_ix9_gK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_BAHycq77Eeeu9YVp-PXt5Q" name="UnregisteredVehicles">
+    <comesFrom href="UnregisteredVehicles.ram#_FIo4QK72EeerXYhM3_RZQQ"/>
+    <wovenElements xmi:id="_BAHyc677Eeeu9YVp-PXt5Q" key="_BAHxq677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="UnregisteredVehicles.ram#_FIo4Qq72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_BAHydK77Eeeu9YVp-PXt5Q" name="TripAccounting">
+    <comesFrom href="TripAccounting.ram#_maq2cK7yEeerXYhM3_RZQQ"/>
+    <wovenElements xmi:id="_BAHyda77Eeeu9YVp-PXt5Q" key="_BAHxlq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkjb4q70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHydq77Eeeu9YVp-PXt5Q" key="_BAHLB677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_myi5AK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyd677Eeeu9YVp-PXt5Q" key="_BAHxia77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkhmsK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyeK77Eeeu9YVp-PXt5Q" key="_BAHLOq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="TripAccounting.ram#_maq2pa7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyea77Eeeu9YVp-PXt5Q" key="_BAHxkq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lki00q70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyeq77Eeeu9YVp-PXt5Q" key="_BAHLZq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_myjgEa70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHye677Eeeu9YVp-PXt5Q" key="_BAHxmK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkkC8K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyfK77Eeeu9YVp-PXt5Q" key="_BAHK-677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_kvs3ga70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyfa77Eeeu9YVp-PXt5Q" key="_BAHLAK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_myhq4q70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyfq77Eeeu9YVp-PXt5Q" key="_BAHxm677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkkqAK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyf677Eeeu9YVp-PXt5Q" key="_BAHLZa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_myjgEK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHygK77Eeeu9YVp-PXt5Q" key="_BAHLBK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_myiR8q70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyga77Eeeu9YVp-PXt5Q" key="_BAHK_q77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_myhq4K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHygq77Eeeu9YVp-PXt5Q" key="_BAHxjq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkiNwK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyg677Eeeu9YVp-PXt5Q" key="_BAHxnK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkkqAa70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyhK77Eeeu9YVp-PXt5Q" key="_BAHxkK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lki00K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyha77Eeeu9YVp-PXt5Q" key="_BAHLCK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_myi5Aa70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyhq77Eeeu9YVp-PXt5Q" key="_BAHK-K77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_kvsQca70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyh677Eeeu9YVp-PXt5Q" key="_BAHK7677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_kvrCUK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyiK77Eeeu9YVp-PXt5Q" key="_BAHK-q77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_kvs3gK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyia77Eeeu9YVp-PXt5Q" key="_BAHLYq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lk4MAK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyiq77Eeeu9YVp-PXt5Q" key="_BAHK8677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_kvrpYK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyi677Eeeu9YVp-PXt5Q" key="_BAHxhq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkg_oK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyjK77Eeeu9YVp-PXt5Q" key="_BAHxlK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkjb4K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyja77Eeeu9YVp-PXt5Q" key="_BAHLVq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_maq2rq7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyjq77Eeeu9YVp-PXt5Q" key="_BAHLW677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_kvtekK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyj677Eeeu9YVp-PXt5Q" key="_BAHLX677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lklREK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHykK77Eeeu9YVp-PXt5Q" key="_BAHK9677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_kvsQcK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyka77Eeeu9YVp-PXt5Q" key="_BAHxha77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="TripAccounting.ram#_maq2uK7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHykq77Eeeu9YVp-PXt5Q" key="_BAHK_K77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_myhD0K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyk677Eeeu9YVp-PXt5Q" key="_BAHK9a77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_kvrpYq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHylK77Eeeu9YVp-PXt5Q" key="_BAHKyq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="TripAccounting.ram#_maq2v67yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyla77Eeeu9YVp-PXt5Q" key="_BAHLYK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lklREa70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHylq77Eeeu9YVp-PXt5Q" key="_BAHLAq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_myiR8K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyl677Eeeu9YVp-PXt5Q" key="_BAHLWK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_maq2s67yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHymK77Eeeu9YVp-PXt5Q" key="_BAHLBa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_myiR8670EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyma77Eeeu9YVp-PXt5Q" key="_BAHK8a77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_kvrCUq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHymq77Eeeu9YVp-PXt5Q" key="_BAHLXa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkkqAq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHym677Eeeu9YVp-PXt5Q" key="_BAHxi677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkhmsq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHynK77Eeeu9YVp-PXt5Q" key="_BAHLVK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_maq2qa7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyna77Eeeu9YVp-PXt5Q" key="_BAHLWq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_kvs3gq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHynq77Eeeu9YVp-PXt5Q" key="_BAHxma77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="TripAccounting.ram#_lkkC8a70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_BAHyn677Eeeu9YVp-PXt5Q" name="Payment">
+    <comesFrom href="Payment.ram#_-GyGcK7yEeerXYhM3_RZQQ"/>
+    <wovenElements xmi:id="_BAHyoK77Eeeu9YVp-PXt5Q" key="_BAHxga77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="Payment.ram#_O22xYK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyoa77Eeeu9YVp-PXt5Q" key="_BAHxgq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="Payment.ram#_QQLUwK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyoq77Eeeu9YVp-PXt5Q" key="_BAHKrK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63c08K74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyo677Eeeu9YVp-PXt5Q" key="_BAHKt677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63eDE674EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHypK77Eeeu9YVp-PXt5Q" key="_BAHxg677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="Payment.ram#_Q120sK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHypa77Eeeu9YVp-PXt5Q" key="_BAHLka77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l4BMa74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHypq77Eeeu9YVp-PXt5Q" key="_BAHLSa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63f4Qq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyp677Eeeu9YVp-PXt5Q" key="_BAHLlK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l4oQK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyqK77Eeeu9YVp-PXt5Q" key="_BAHLfa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Payment.ram#_-Gytuq7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyqa77Eeeu9YVp-PXt5Q" key="_BAHKnq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Payment.ram#_-GytrK7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyqq77Eeeu9YVp-PXt5Q" key="_BAHxhK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="Payment.ram#_RZdRAK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyq677Eeeu9YVp-PXt5Q" key="_BAHLiq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l3aIK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyrK77Eeeu9YVp-PXt5Q" key="_BAHKuq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l4oQq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyra77Eeeu9YVp-PXt5Q" key="_BAHLOq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Payment.ram#_-Gytoq7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyrq77Eeeu9YVp-PXt5Q" key="_BAHxf677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="Payment.ram#_VBiyAK7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyr677Eeeu9YVp-PXt5Q" key="_BAHKua77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l4oQa74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHysK77Eeeu9YVp-PXt5Q" key="_BAHLg677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l2MAq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHysa77Eeeu9YVp-PXt5Q" key="_BAHKqa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63cN4K74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHysq77Eeeu9YVp-PXt5Q" key="_BAHKsq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63dcBK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHys677Eeeu9YVp-PXt5Q" key="_BAHLO677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_-Gyto67yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHytK77Eeeu9YVp-PXt5Q" key="_BAHLhq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l2zEK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyta77Eeeu9YVp-PXt5Q" key="_BAHLQq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63fRMq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHytq77Eeeu9YVp-PXt5Q" key="_BAHLUq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_634SwK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyt677Eeeu9YVp-PXt5Q" key="_BAHLTa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_633rsK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyuK77Eeeu9YVp-PXt5Q" key="_BAHLiK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l2zEq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyua77Eeeu9YVp-PXt5Q" key="_BAHKtK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63eDEK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyuq77Eeeu9YVp-PXt5Q" key="_BAHLT677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_633rsq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyu677Eeeu9YVp-PXt5Q" key="_BAHKvK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l-u4K74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyvK77Eeeu9YVp-PXt5Q" key="_BAHLjq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l3aJK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyva77Eeeu9YVp-PXt5Q" key="_BAHKuK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63eqIK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyvq77Eeeu9YVp-PXt5Q" key="_BAHLga77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l2MAK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyv677Eeeu9YVp-PXt5Q" key="_BAHKp677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_-GytsK7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHywK77Eeeu9YVp-PXt5Q" key="_BAHLR677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63f4QK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHywa77Eeeu9YVp-PXt5Q" key="_BAHLU677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_634Swa74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHywq77Eeeu9YVp-PXt5Q" key="_BAHLQK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63fRMK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyw677Eeeu9YVp-PXt5Q" key="_BAHLbq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="Payment.ram#_-Gytq67yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyxK77Eeeu9YVp-PXt5Q" key="_BAHLfq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l1k8K74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyxa77Eeeu9YVp-PXt5Q" key="_BAHxgK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Payment.ram#_M8ZP0K7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyxq77Eeeu9YVp-PXt5Q" key="_BAHLPa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63eqIa74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyx677Eeeu9YVp-PXt5Q" key="_BAHKta77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63eDEa74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyyK77Eeeu9YVp-PXt5Q" key="_BAHKrq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63dcAK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyya77Eeeu9YVp-PXt5Q" key="_BAHLUK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_633rs674EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyyq77Eeeu9YVp-PXt5Q" key="_BAHKwq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="Payment.ram#_-Gytua7yEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyy677Eeeu9YVp-PXt5Q" key="_BAHKsK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63dcAq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyzK77Eeeu9YVp-PXt5Q" key="_BAHxfq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="Payment.ram#_DEjA8K7zEeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyza77Eeeu9YVp-PXt5Q" key="_BAHLjK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l3aIq74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyzq77Eeeu9YVp-PXt5Q" key="_BAHLk677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l4BM674EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHyz677Eeeu9YVp-PXt5Q" key="_BAHLS677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63f4RK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy0K77Eeeu9YVp-PXt5Q" key="_BAHLRK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_63fRNK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy0a77Eeeu9YVp-PXt5Q" key="_BAHLkK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Payment.ram#_7l4BMK74EeerXYhM3_RZQQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_BAHy0q77Eeeu9YVp-PXt5Q" name="AutomatedClassification">
+    <comesFrom href="AutomatedClassification.ram#_yrgrEK70EeerXYhM3_RZQQ"/>
+    <wovenElements xmi:id="_BAHy0677Eeeu9YVp-PXt5Q" key="_BAHK7q77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="AutomatedClassification.ram#_597Iwq70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy1K77Eeeu9YVp-PXt5Q" key="_BAHLOq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="AutomatedClassification.ram#_zgoVMK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy1a77Eeeu9YVp-PXt5Q" key="_BAHLba77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="AutomatedClassification.ram#_1poCAK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy1q77Eeeu9YVp-PXt5Q" key="_BAHLea77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="AutomatedClassification.ram#_597v0K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy1677Eeeu9YVp-PXt5Q" key="_BAHKyq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="AutomatedClassification.ram#_2KNmkK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy2K77Eeeu9YVp-PXt5Q" key="_BAHLd677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="AutomatedClassification.ram#_597Iw670EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy2a77Eeeu9YVp-PXt5Q" key="_BAHLdq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="AutomatedClassification.ram#_2s6D8K70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy2q77Eeeu9YVp-PXt5Q" key="_BAHK7K77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="AutomatedClassification.ram#_597IwK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy2677Eeeu9YVp-PXt5Q" key="_BAHK6q77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="AutomatedClassification.ram#_596hsK70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy3K77Eeeu9YVp-PXt5Q" key="_BAHLeq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="AutomatedClassification.ram#_597v0a70EeerXYhM3_RZQQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_BAHy3a77Eeeu9YVp-PXt5Q" name="LicensePlateRecognition">
+    <comesFrom href="LicensePlateRecognition.ram#_FNuCAK71EeerXYhM3_RZQQ"/>
+    <wovenElements xmi:id="_BAHy3q77Eeeu9YVp-PXt5Q" key="_BAHK6a77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_KyyNEK71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy3677Eeeu9YVp-PXt5Q" key="_BAHLbK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="LicensePlateRecognition.ram#_FNuCIq71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy4K77Eeeu9YVp-PXt5Q" key="_BAHLcK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_FNuCF671EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy4a77Eeeu9YVp-PXt5Q" key="_BAHK3a77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_KywX4K71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy4q77Eeeu9YVp-PXt5Q" key="_BAHLcq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_KyyNEa71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy4677Eeeu9YVp-PXt5Q" key="_BAHK3677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_Kyw-8K71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy5K77Eeeu9YVp-PXt5Q" key="_BAHK5q77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_KyxmAa71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy5a77Eeeu9YVp-PXt5Q" key="_BAHLOq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="LicensePlateRecognition.ram#_FNuCIa71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy5q77Eeeu9YVp-PXt5Q" key="_BAHK4677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_Kyw-9K71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy5677Eeeu9YVp-PXt5Q" key="_BAHLc677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_KyyNEq71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy6K77Eeeu9YVp-PXt5Q" key="_BAHK6K77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_KyxmA671EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy6a77Eeeu9YVp-PXt5Q" key="_BAHLb677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="LicensePlateRecognition.ram#_FNuCE671EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy6q77Eeeu9YVp-PXt5Q" key="_BAHK4a77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_Kyw-8q71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy6677Eeeu9YVp-PXt5Q" key="_BAHK5a77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="LicensePlateRecognition.ram#_KyxmAK71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy7K77Eeeu9YVp-PXt5Q" key="_BAHKyq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="LicensePlateRecognition.ram#_FNuCGq71EeerXYhM3_RZQQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_BAHy7a77Eeeu9YVp-PXt5Q" name="Automation">
+    <comesFrom href="Automation.ram#_Rftl0K76Eeeu9YVp-PXt5Q"/>
+    <wovenElements xmi:id="_BAHy7q77Eeeu9YVp-PXt5Q" key="_BAHKyq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Automation.ram#_Rftl5q76Eeeu9YVp-PXt5Q"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy7677Eeeu9YVp-PXt5Q" key="_BAHK2K77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Automation.ram#_Rftl5676Eeeu9YVp-PXt5Q"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy8K77Eeeu9YVp-PXt5Q" key="_BAHLN677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Automation.ram#_Rftl8a76Eeeu9YVp-PXt5Q"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy8a77Eeeu9YVp-PXt5Q" key="_BAHLM677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="Automation.ram#_Rftl7a76Eeeu9YVp-PXt5Q"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy8q77Eeeu9YVp-PXt5Q" key="_BAHLNq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Automation.ram#_Rftl8K76Eeeu9YVp-PXt5Q"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy8677Eeeu9YVp-PXt5Q" key="_BAHK2q77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Automation.ram#_Rftl6a76Eeeu9YVp-PXt5Q"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy9K77Eeeu9YVp-PXt5Q" key="_BAHK3K77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Automation.ram#_Rftl6676Eeeu9YVp-PXt5Q"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy9a77Eeeu9YVp-PXt5Q" key="_BAHLNK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="Automation.ram#_Rftl7q76Eeeu9YVp-PXt5Q"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_BAHy9q77Eeeu9YVp-PXt5Q" name="CheaterFining">
+    <comesFrom href="CheaterFining.ram#_XNi9QK74EeerXYhM3_RZQQ"/>
+  </wovenAspects>
+  <wovenAspects xmi:id="_BAHy9677Eeeu9YVp-PXt5Q" name="NightRecognition">
+    <comesFrom href="NightRecognition.ram#_vHAXoK72EeerXYhM3_RZQQ"/>
+    <wovenElements xmi:id="_BAHy-K77Eeeu9YVp-PXt5Q" key="_BAHK0677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-uq72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy-a77Eeeu9YVp-PXt5Q" key="_BAHKx677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-xK72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy-q77Eeeu9YVp-PXt5Q" key="_BAHKza77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-tK72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy-677Eeeu9YVp-PXt5Q" key="_BAHK1677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-vq72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy_K77Eeeu9YVp-PXt5Q" key="_BAHKxK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-wa72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy_a77Eeeu9YVp-PXt5Q" key="_BAHKyq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="NightRecognition.ram#_vHA-sa72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy_q77Eeeu9YVp-PXt5Q" key="_BAHKz677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-tq72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHy_677Eeeu9YVp-PXt5Q" key="_BAHK0a77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-uK72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzAK77Eeeu9YVp-PXt5Q" key="_BAHKy677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-sq72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzAa77Eeeu9YVp-PXt5Q" key="_BAHKxq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-w672EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzAq77Eeeu9YVp-PXt5Q" key="_BAHK1q77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-va72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzA677Eeeu9YVp-PXt5Q" key="_BAHKw677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="NightRecognition.ram#_vHA-wK72EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzBK77Eeeu9YVp-PXt5Q" key="_BAHK1K77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="NightRecognition.ram#_vHA-u672EeerXYhM3_RZQQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_BAHzBa77Eeeu9YVp-PXt5Q" name="RegisteredPayment">
+    <comesFrom href="RegisteredPayment.ram#_p4en0K73EeerXYhM3_RZQQ"/>
+    <wovenElements xmi:id="_BAHzBq77Eeeu9YVp-PXt5Q" key="_BAHKha77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoEq73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzB677Eeeu9YVp-PXt5Q" key="_BAHKfq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoC673EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzCK77Eeeu9YVp-PXt5Q" key="_BAHKgq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoD673EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzCa77Eeeu9YVp-PXt5Q" key="_BAHKnq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="RegisteredPayment.ram#_p4en9K73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzCq77Eeeu9YVp-PXt5Q" key="_BAHKoa77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4en9673EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzC677Eeeu9YVp-PXt5Q" key="_BAHKh677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoFK73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzDK77Eeeu9YVp-PXt5Q" key="_BAHKeq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoB673EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzDa77Eeeu9YVp-PXt5Q" key="_BAHKb677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Attribute" href="RegisteredPayment.ram#_rM75UK73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzDq77Eeeu9YVp-PXt5Q" key="_BAHKgK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoDa73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzD677Eeeu9YVp-PXt5Q" key="_BAHKhK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoEa73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzEK77Eeeu9YVp-PXt5Q" key="_BAHKda77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoAq73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzEa77Eeeu9YVp-PXt5Q" key="_BAHKcq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4en_673EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzEq77Eeeu9YVp-PXt5Q" key="_BAHKpK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4en-q73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzE677Eeeu9YVp-PXt5Q" key="_BAHKYq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="RegisteredPayment.ram#_qJTSEK73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzFK77Eeeu9YVp-PXt5Q" key="_BAHKiK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoFa73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzFa77Eeeu9YVp-PXt5Q" key="_BAHKfK77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoCa73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzFq77Eeeu9YVp-PXt5Q" key="_BAHKca77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Class" href="RegisteredPayment.ram#_p4en_q73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzF677Eeeu9YVp-PXt5Q" key="_BAHKn677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4en9a73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzGK77Eeeu9YVp-PXt5Q" key="_BAHKoq77Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4en-K73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_BAHzGa77Eeeu9YVp-PXt5Q" key="_BAHKd677Eeeu9YVp-PXt5Q">
+      <value xsi:type="ram:Operation" href="RegisteredPayment.ram#_p4eoBK73EeerXYhM3_RZQQ"/>
+    </wovenElements>
+  </wovenAspects>
+</ram:Aspect>

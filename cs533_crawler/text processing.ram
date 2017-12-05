@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_7ccxILXXEee3M-EPgQFctQ" name="text processing">
+  <realizes href="Cs533_crawler.core#_KAN5YLXUEee3M-EPgQFctQ"/>
+  <coreConcern href="Cs533_crawler.core#_FSlsobXUEee3M-EPgQFctQ"/>
+  <structuralView xmi:id="_7ccxSbXXEee3M-EPgQFctQ">
+    <classes xsi:type="ram:Class" xmi:id="_7ccxXrXXEee3M-EPgQFctQ" name="ExtractedText" superTypes="_TmsuoLXYEee3M-EPgQFctQ">
+      <attributes xmi:id="_E5AK8LqVEeeHZZgwTn_r7Q" name="NaturalLanguageContent" type="_7ccxbbXXEee3M-EPgQFctQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_TmsuoLXYEee3M-EPgQFctQ" name="ProcessedContent"/>
+    <classes xsi:type="ram:Class" xmi:id="_Y08KYLqUEeeHZZgwTn_r7Q" name="UserQuery"/>
+    <classes xsi:type="ram:Class" xmi:id="_Z0Mn8LqUEeeHZZgwTn_r7Q" name="TextProcessQuery" superTypes="_Y08KYLqUEeeHZZgwTn_r7Q">
+      <attributes xmi:id="_3hld4LqUEeeHZZgwTn_r7Q" name="userInput" type="_nJxh8LqUEeeHZZgwTn_r7Q"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_nJxh8LqUEeeHZZgwTn_r7Q" name="TextQuery" dataType="true">
+      <attributes xmi:id="_r5LQULqUEeeHZZgwTn_r7Q" name="topic" type="_7ccxbbXXEee3M-EPgQFctQ"/>
+      <attributes xmi:id="_tzBt4LqUEeeHZZgwTn_r7Q" name="language" type="_7ccxbbXXEee3M-EPgQFctQ"/>
+      <attributes xmi:id="_x0FvkLqUEeeHZZgwTn_r7Q" name="maxLength" type="_7ccxa7XXEee3M-EPgQFctQ"/>
+      <attributes xmi:id="_0s2scLqUEeeHZZgwTn_r7Q" name="regex" type="_7ccxbbXXEee3M-EPgQFctQ"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_7ccxaLXXEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_7ccxabXXEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_7ccxarXXEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_7ccxa7XXEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_7ccxbLXXEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RString" xmi:id="_7ccxbbXXEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_7ccxbrXXEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_7ccxb7XXEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_7ccxcLXXEee3M-EPgQFctQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_7ccxcbXXEee3M-EPgQFctQ"/>
+  </structuralView>
+  <instantiations xmi:id="_7ccxcrXXEee3M-EPgQFctQ">
+    <source xsi:type="ram:Aspect" href="Content%20processing.ram#_nUmHgLXWEee3M-EPgQFctQ"/>
+  </instantiations>
+  <layout xmi:id="_7ccxc7XXEee3M-EPgQFctQ">
+    <containers xmi:id="_7ccxdLXXEee3M-EPgQFctQ" key="_7ccxSbXXEee3M-EPgQFctQ">
+      <value xmi:id="_7ccxebXXEee3M-EPgQFctQ" key="_7ccxXrXXEee3M-EPgQFctQ">
+        <value xmi:id="_7ccxerXXEee3M-EPgQFctQ" x="359.99988" y="460.0155"/>
+      </value>
+      <value xmi:id="_TmtVsLXYEee3M-EPgQFctQ" key="_TmsuoLXYEee3M-EPgQFctQ">
+        <value xmi:id="_TmtVsbXYEee3M-EPgQFctQ" x="356.0" y="229.0"/>
+      </value>
+      <value xmi:id="_Y08xcLqUEeeHZZgwTn_r7Q" key="_Y08KYLqUEeeHZZgwTn_r7Q">
+        <value xmi:id="_Y08xcbqUEeeHZZgwTn_r7Q" x="102.941345" y="229.0"/>
+      </value>
+      <value xmi:id="_Z0N2ELqUEeeHZZgwTn_r7Q" key="_Z0Mn8LqUEeeHZZgwTn_r7Q">
+        <value xmi:id="_Z0N2EbqUEeeHZZgwTn_r7Q" x="70.0" y="459.99988"/>
+      </value>
+      <value xmi:id="_nJywELqUEeeHZZgwTn_r7Q" key="_nJxh8LqUEeeHZZgwTn_r7Q">
+        <value xmi:id="_nJywEbqUEeeHZZgwTn_r7Q" x="612.0" y="70.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

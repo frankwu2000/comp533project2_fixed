@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_cYgYgK7zEeerXYhM3_RZQQ" name="Registration">
+  <modelReuses xmi:id="__Sl80K7zEeerXYhM3_RZQQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="__Sl80a7zEeerXYhM3_RZQQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fsK7xEeerXYhM3_RZQQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="__Sl80q7zEeerXYhM3_RZQQ" to="_5BSW0K7zEeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fsq7xEeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="__Sl8067zEeerXYhM3_RZQQ" to="__SoZE67zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fs67xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="__Sl81K7zEeerXYhM3_RZQQ" to="__SpAIK7zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fta7xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="__Sl81a7zEeerXYhM3_RZQQ" to="__SpAIa7zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0ftq7xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="__Sl81q7zEeerXYhM3_RZQQ" to="_5c8YEK7zEeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fua7xEeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="__Sl8167zEeerXYhM3_RZQQ" to="__SnyAK7zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fuq7xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="__Sl82K7zEeerXYhM3_RZQQ" to="__SoZEK7zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fvK7xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="__Sl82a7zEeerXYhM3_RZQQ" to="__SoZEq7zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fvq7xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="ETR.core#__Sl82q7zEeerXYhM3_RZQQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="__SpnMK7zEeerXYhM3_RZQQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="__SpnMa7zEeerXYhM3_RZQQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fsK7xEeerXYhM3_RZQQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="__SpnMq7zEeerXYhM3_RZQQ" to="_5c8YEK7zEeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fsq7xEeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="__SpnM67zEeerXYhM3_RZQQ" to="__SoZEK7zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fs67xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="__SpnNK7zEeerXYhM3_RZQQ" to="__SoZEq7zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fta7xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="__SpnNa7zEeerXYhM3_RZQQ" to="__SnyAK7zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0ftq7xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="__SpnNq7zEeerXYhM3_RZQQ" to="_5BSW0K7zEeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fua7xEeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="__SpnN67zEeerXYhM3_RZQQ" to="__SpAIa7zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fuq7xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="__SpnOK7zEeerXYhM3_RZQQ" to="__SoZE67zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fvK7xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="__SpnOa7zEeerXYhM3_RZQQ" to="__SpAIK7zEeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_8X0fvq7xEeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="ETR.core#__SpnOq7zEeerXYhM3_RZQQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_geQQcK70EeerXYhM3_RZQQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_geQQca70EeerXYhM3_RZQQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCUK70EeerXYhM3_RZQQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_geQQcq70EeerXYhM3_RZQQ" to="_5c8YEK7zEeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCUq70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_geQQc670EeerXYhM3_RZQQ" to="_fJBi4q70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCU670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_geQQdK70EeerXYhM3_RZQQ" to="_geUh4q70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCVa70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_geQQda70EeerXYhM3_RZQQ" to="_geVI8K70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCVq70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_geQQdq70EeerXYhM3_RZQQ" to="_29q5QK7zEeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCWa70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_geQQd670EeerXYhM3_RZQQ" to="_geSssK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCWq70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_geQQeK70EeerXYhM3_RZQQ" to="_geSssq70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCXK70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_geQQea70EeerXYhM3_RZQQ" to="_geTTwK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCXq70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_geQQeq70EeerXYhM3_RZQQ" to="_geTTwq70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCYK70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_geQQe670EeerXYhM3_RZQQ" to="_geT60K70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCYq70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_geQQfK70EeerXYhM3_RZQQ" to="_geT60a70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCY670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_geQQfa70EeerXYhM3_RZQQ" to="_geUh4K70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCZa70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_geQQfq70EeerXYhM3_RZQQ" to="_geUh4a70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCZq70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="ETR.core#_geQQf670EeerXYhM3_RZQQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_gee58K70EeerXYhM3_RZQQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_gee58a70EeerXYhM3_RZQQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4K70EeerXYhM3_RZQQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_gee58q70EeerXYhM3_RZQQ" to="_29q5QK7zEeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS6a70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_gee58670EeerXYhM3_RZQQ" to="_geTTwK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS6q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_gee59K70EeerXYhM3_RZQQ" to="_geTTwq70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS7K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_gee59a70EeerXYhM3_RZQQ" to="_geSssK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS7q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_gee59q70EeerXYhM3_RZQQ" to="_geSssq70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS8K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_gee59670EeerXYhM3_RZQQ" to="_5c8YEK7zEeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4q70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_gee5-K70EeerXYhM3_RZQQ" to="_geVI8K70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_gee5-a70EeerXYhM3_RZQQ" to="_fJBi4q70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS5a70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_gee5-q70EeerXYhM3_RZQQ" to="_geUh4q70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS5670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="ETR.core#_gee5-670EeerXYhM3_RZQQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_hHhP4K70EeerXYhM3_RZQQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_hHhP4a70EeerXYhM3_RZQQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCUK70EeerXYhM3_RZQQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_hHhP4q70EeerXYhM3_RZQQ" to="_29q5QK7zEeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCUq70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_hHhP4670EeerXYhM3_RZQQ" to="_EnI_oK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCU670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hHhP5K70EeerXYhM3_RZQQ" to="_hH_J8a70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCVa70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hHhP5a70EeerXYhM3_RZQQ" to="_hH_xAK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCVq70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_hHhP5q70EeerXYhM3_RZQQ" to="_BlX3wK70EeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCWa70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_hHhP5670EeerXYhM3_RZQQ" to="_hHjsIK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCWq70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hHhP6K70EeerXYhM3_RZQQ" to="_hHjsIq70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCXK70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hHhP6a70EeerXYhM3_RZQQ" to="_hH9UwK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCXq70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hHhP6q70EeerXYhM3_RZQQ" to="_hH970K70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCYK70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hHhP6670EeerXYhM3_RZQQ" to="_hH-i4K70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCYq70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hHhP7K70EeerXYhM3_RZQQ" to="_hH-i4a70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCY670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hHhP7a70EeerXYhM3_RZQQ" to="_hH-i4670EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCZa70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hHhP7q70EeerXYhM3_RZQQ" to="_hH_J8K70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCZq70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="ETR.core#_hHhP7670EeerXYhM3_RZQQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_hIECca70EeerXYhM3_RZQQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_hIECcq70EeerXYhM3_RZQQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4K70EeerXYhM3_RZQQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_hIECc670EeerXYhM3_RZQQ" to="_BlX3wK70EeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS6a70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_hIECdK70EeerXYhM3_RZQQ" to="_hH9UwK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS6q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hIECda70EeerXYhM3_RZQQ" to="_hH970K70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS7K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hIECdq70EeerXYhM3_RZQQ" to="_hHjsIK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS7q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hIECd670EeerXYhM3_RZQQ" to="_hHjsIq70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS8K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_hIECeK70EeerXYhM3_RZQQ" to="_29q5QK7zEeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4q70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_hIECea70EeerXYhM3_RZQQ" to="_hH_xAK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hIECeq70EeerXYhM3_RZQQ" to="_EnI_oK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS5a70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_hIECe670EeerXYhM3_RZQQ" to="_hH_J8a70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS5670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="ETR.core#_hIECfK70EeerXYhM3_RZQQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_iK1HAK70EeerXYhM3_RZQQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_iK1HAa70EeerXYhM3_RZQQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz44K70EeerXYhM3_RZQQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_iK1HAq70EeerXYhM3_RZQQ" to="_HpYooK70EeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz48a70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_iK1HA670EeerXYhM3_RZQQ" to="_LoSuMa70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz48q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK1HBK70EeerXYhM3_RZQQ" to="_iK5Yca70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz49K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK1HBa70EeerXYhM3_RZQQ" to="_iK5_gK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz49a70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_iK1HBq70EeerXYhM3_RZQQ" to="_GRqAsK70EeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz44q70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_iK1HB670EeerXYhM3_RZQQ" to="_iK3jQK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz44670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK1HCK70EeerXYhM3_RZQQ" to="_iK3jQq70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz45a70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK1HCa70EeerXYhM3_RZQQ" to="_iK4KUK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz45670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK1HCq70EeerXYhM3_RZQQ" to="_iK4KUq70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz46a70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK1HC670EeerXYhM3_RZQQ" to="_iK4xYK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz46670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK1HDK70EeerXYhM3_RZQQ" to="_iK4xYa70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz47K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK1HDa70EeerXYhM3_RZQQ" to="_iK4xY670EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz47q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK1HDq70EeerXYhM3_RZQQ" to="_iK5YcK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz47670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="ETR.core#_iK1HD670EeerXYhM3_RZQQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_iK9C0K70EeerXYhM3_RZQQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_iK9C0a70EeerXYhM3_RZQQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4K70EeerXYhM3_RZQQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_iK9C0q70EeerXYhM3_RZQQ" to="_GRqAsK70EeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS6a70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_iK9C0670EeerXYhM3_RZQQ" to="_iK4KUK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS6q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK9C1K70EeerXYhM3_RZQQ" to="_iK4KUq70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS7K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK9C1a70EeerXYhM3_RZQQ" to="_iK3jQK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS7q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK9C1q70EeerXYhM3_RZQQ" to="_iK3jQq70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS8K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_iK9C1670EeerXYhM3_RZQQ" to="_HpYooK70EeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4q70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_iK9C2K70EeerXYhM3_RZQQ" to="_iK5_gK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK9C2a70EeerXYhM3_RZQQ" to="_LoSuMa70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS5a70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iK9C2q70EeerXYhM3_RZQQ" to="_iK5Yca70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS5670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="ETR.core#_iK9C2670EeerXYhM3_RZQQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_ixqdga70EeerXYhM3_RZQQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_ixqdgq70EeerXYhM3_RZQQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz44K70EeerXYhM3_RZQQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_ixqdg670EeerXYhM3_RZQQ" to="_Guj_IK70EeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz48a70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_ixqdhK70EeerXYhM3_RZQQ" to="_Szg-wa70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz48q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_ixqdha70EeerXYhM3_RZQQ" to="_ix_0sK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz49K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_ixqdhq70EeerXYhM3_RZQQ" to="_ix_0sa70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz49a70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_ixqdh670EeerXYhM3_RZQQ" to="_GRqAsK70EeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz44q70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_ixqdiK70EeerXYhM3_RZQQ" to="_ixs5wK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz44670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_ixqdia70EeerXYhM3_RZQQ" to="_ixtg0K70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz45a70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_ixqdiq70EeerXYhM3_RZQQ" to="_ix9YcK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz45670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_ixqdi670EeerXYhM3_RZQQ" to="_ix9_gK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz46a70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_ixqdjK70EeerXYhM3_RZQQ" to="_ix-mkK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz46670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_ixqdja70EeerXYhM3_RZQQ" to="_ix-mka70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz47K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_ixqdjq70EeerXYhM3_RZQQ" to="_ix_NoK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz47q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_ixqdj670EeerXYhM3_RZQQ" to="_ix_Noa70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz47670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="ETR.core#_ixqdkK70EeerXYhM3_RZQQ"/>
+  </modelReuses>
+  <modelReuses xmi:id="_iyDfEa70EeerXYhM3_RZQQ">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_iyDfEq70EeerXYhM3_RZQQ">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4K70EeerXYhM3_RZQQ"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_iyDfE670EeerXYhM3_RZQQ" to="_GRqAsK70EeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS6a70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_iyDfFK70EeerXYhM3_RZQQ" to="_ix9YcK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS6q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iyDfFa70EeerXYhM3_RZQQ" to="_ix9_gK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS7K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iyDfFq70EeerXYhM3_RZQQ" to="_ixs5wK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS7q70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iyDfF670EeerXYhM3_RZQQ" to="_ixtg0K70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS8K70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_iyDfGK70EeerXYhM3_RZQQ" to="_Guj_IK70EeerXYhM3_RZQQ">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4q70EeerXYhM3_RZQQ"/>
+        <operationMappings xmi:id="_iyDfGa70EeerXYhM3_RZQQ" to="_ix_0sa70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS4670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iyDfGq70EeerXYhM3_RZQQ" to="_Szg-wa70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS5a70EeerXYhM3_RZQQ"/>
+        </operationMappings>
+        <operationMappings xmi:id="_iyDfG670EeerXYhM3_RZQQ" to="_ix_0sK70EeerXYhM3_RZQQ">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_OneToPlain.ram#_geeS5670EeerXYhM3_RZQQ"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="ETR.core#_iyDfHK70EeerXYhM3_RZQQ"/>
+  </modelReuses>
+  <realizes href="ETR.core#_a7gPAK7zEeerXYhM3_RZQQ"/>
+  <coreConcern href="ETR.core#_yKSUsK7xEeerXYhM3_RZQQ"/>
+  <structuralView xmi:id="_cYgYga7zEeerXYhM3_RZQQ">
+    <classes xsi:type="ram:Class" xmi:id="_29q5QK7zEeerXYhM3_RZQQ" name="Account">
+      <operations xmi:id="_EnI_oK70EeerXYhM3_RZQQ" name="setSimpleLinkedTo" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_EnI_oa70EeerXYhM3_RZQQ" name="newObject" type="_BlX3wK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_geSssK70EeerXYhM3_RZQQ" name="addRegisteredTransponders" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_geSssa70EeerXYhM3_RZQQ" name="a" type="_5c8YEK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_geSssq70EeerXYhM3_RZQQ" name="removeRegisteredTransponders" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_geSss670EeerXYhM3_RZQQ" name="a" type="_5c8YEK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_geTTwK70EeerXYhM3_RZQQ" name="addSimpleRegisteredTransponders" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_geTTwa70EeerXYhM3_RZQQ" name="a" type="_5c8YEK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_geTTwq70EeerXYhM3_RZQQ" name="removeSimpleRegisteredTransponders" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_geTTw670EeerXYhM3_RZQQ" name="a" type="_5c8YEK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_geT60K70EeerXYhM3_RZQQ" name="createRegisteredTransponders" extendedVisibility="package" returnType="_29q5QK7zEeerXYhM3_RZQQ" operationType="Constructor"/>
+      <operations xmi:id="_geT60a70EeerXYhM3_RZQQ" name="containsRegisteredTransponders" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_geT60q70EeerXYhM3_RZQQ" name="a" type="_5c8YEK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_geUh4K70EeerXYhM3_RZQQ" name="sizeOfRegisteredTransponders" extendedVisibility="package" returnType="_cYgYha7zEeerXYhM3_RZQQ"/>
+      <operations xmi:id="_geUh4a70EeerXYhM3_RZQQ" name="getRegisteredTransponders" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCaK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_hH_J8a70EeerXYhM3_RZQQ" name="getLinkedTo" extendedVisibility="package" returnType="_BlX3wK70EeerXYhM3_RZQQ"/>
+      <operations xmi:id="_hH_xAK70EeerXYhM3_RZQQ" name="setLinkedTo" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_hH_xAa70EeerXYhM3_RZQQ" name="a" type="_BlX3wK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <associationEnds xmi:id="_CQSdAK70EeerXYhM3_RZQQ" name="linkedTo" lowerBound="1" assoc="_CQSdAq70EeerXYhM3_RZQQ" featureSelection="_hIECca70EeerXYhM3_RZQQ"/>
+      <associationEnds xmi:id="_cSD80K70EeerXYhM3_RZQQ" name="registeredTransponders" upperBound="-1" assoc="_cSD80a70EeerXYhM3_RZQQ" featureSelection="_geQQcK70EeerXYhM3_RZQQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_5BSW0K7zEeerXYhM3_RZQQ" name="Vehicle">
+      <operations xmi:id="__SoZE67zEeerXYhM3_RZQQ" name="setSimpleRegisteredTransponder" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="__SoZFK7zEeerXYhM3_RZQQ" name="newObject" type="_5c8YEK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="__SpAIK7zEeerXYhM3_RZQQ" name="getRegisteredTransponder" extendedVisibility="package" returnType="_5c8YEK7zEeerXYhM3_RZQQ"/>
+      <operations xmi:id="__SpAIa7zEeerXYhM3_RZQQ" name="setRegisteredTransponder" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="__SpAIq7zEeerXYhM3_RZQQ" name="a" type="_5c8YEK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <associationEnds xmi:id="_8HCm0K7zEeerXYhM3_RZQQ" name="registeredTransponder" assoc="_8HCm0q7zEeerXYhM3_RZQQ" featureSelection="__SpnMK7zEeerXYhM3_RZQQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_5c8YEK7zEeerXYhM3_RZQQ" name="Transponder">
+      <operations xmi:id="__SnyAK7zEeerXYhM3_RZQQ" name="setRegisteredVehicle" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="__SnyAa7zEeerXYhM3_RZQQ" name="newObject" type="_5BSW0K7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="__SoZEK7zEeerXYhM3_RZQQ" name="setSimpleRegisteredVehicle" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="__SoZEa7zEeerXYhM3_RZQQ" name="newObject" type="_5BSW0K7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="__SoZEq7zEeerXYhM3_RZQQ" name="getRegisteredVehicle" extendedVisibility="package" returnType="_5BSW0K7zEeerXYhM3_RZQQ"/>
+      <operations xmi:id="_fJBi4q70EeerXYhM3_RZQQ" name="setSimpleRegisteredTo" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_fJBi4670EeerXYhM3_RZQQ" name="newObject" type="_29q5QK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_geUh4q70EeerXYhM3_RZQQ" name="getRegisteredTo" extendedVisibility="package" returnType="_29q5QK7zEeerXYhM3_RZQQ"/>
+      <operations xmi:id="_geVI8K70EeerXYhM3_RZQQ" name="setRegisteredTo" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_geVI8a70EeerXYhM3_RZQQ" name="a" type="_29q5QK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <associationEnds xmi:id="_8HCm0a7zEeerXYhM3_RZQQ" name="registeredVehicle" assoc="_8HCm0q7zEeerXYhM3_RZQQ" featureSelection="__Sl80K7zEeerXYhM3_RZQQ"/>
+      <associationEnds xmi:id="_cSDVwK70EeerXYhM3_RZQQ" name="registeredTo" assoc="_cSD80a70EeerXYhM3_RZQQ" featureSelection="_gee58K70EeerXYhM3_RZQQ"/>
+      <attributes xmi:id="_7LzGkK7zEeerXYhM3_RZQQ" name="id" type="_cYgYha7zEeerXYhM3_RZQQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_BlX3wK70EeerXYhM3_RZQQ" name="Person">
+      <operations xmi:id="_hHjsIK70EeerXYhM3_RZQQ" name="addMyAccounts" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_hHjsIa70EeerXYhM3_RZQQ" name="a" type="_29q5QK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_hHjsIq70EeerXYhM3_RZQQ" name="removeMyAccounts" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_hHjsI670EeerXYhM3_RZQQ" name="a" type="_29q5QK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_hH9UwK70EeerXYhM3_RZQQ" name="addSimpleMyAccounts" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_hH9Uwa70EeerXYhM3_RZQQ" name="a" type="_29q5QK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_hH970K70EeerXYhM3_RZQQ" name="removeSimpleMyAccounts" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_hH970a70EeerXYhM3_RZQQ" name="a" type="_29q5QK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_hH-i4K70EeerXYhM3_RZQQ" name="createMyAccounts" extendedVisibility="package" returnType="_BlX3wK70EeerXYhM3_RZQQ" operationType="Constructor"/>
+      <operations xmi:id="_hH-i4a70EeerXYhM3_RZQQ" name="containsMyAccounts" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_hH-i4q70EeerXYhM3_RZQQ" name="a" type="_29q5QK7zEeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_hH-i4670EeerXYhM3_RZQQ" name="sizeOfMyAccounts" extendedVisibility="package" returnType="_cYgYha7zEeerXYhM3_RZQQ"/>
+      <operations xmi:id="_hH_J8K70EeerXYhM3_RZQQ" name="getMyAccounts" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_PlainBidirectional_PlainToOne_Unordered.ram#_gePCaK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <associationEnds xmi:id="_CQSdAa70EeerXYhM3_RZQQ" name="myAccounts" upperBound="-1" assoc="_CQSdAq70EeerXYhM3_RZQQ" featureSelection="_hHhP4K70EeerXYhM3_RZQQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_GRqAsK70EeerXYhM3_RZQQ" name="Gantry">
+      <operations xmi:id="_iK3jQK70EeerXYhM3_RZQQ" name="addLocatorAntennae" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_iK3jQa70EeerXYhM3_RZQQ" name="a" type="_HpYooK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_iK3jQq70EeerXYhM3_RZQQ" name="removeLocatorAntennae" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_iK3jQ670EeerXYhM3_RZQQ" name="a" type="_HpYooK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_iK4KUK70EeerXYhM3_RZQQ" name="addSimpleLocatorAntennae" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_iK4KUa70EeerXYhM3_RZQQ" name="a" type="_HpYooK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_iK4KUq70EeerXYhM3_RZQQ" name="removeSimpleLocatorAntennae" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_iK4KU670EeerXYhM3_RZQQ" name="a" type="_HpYooK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_iK4xYK70EeerXYhM3_RZQQ" name="createLocatorAntennae" extendedVisibility="package" returnType="_GRqAsK70EeerXYhM3_RZQQ" operationType="Constructor"/>
+      <operations xmi:id="_iK4xYa70EeerXYhM3_RZQQ" name="containsLocatorAntennae" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_iK4xYq70EeerXYhM3_RZQQ" name="a" type="_HpYooK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_iK4xY670EeerXYhM3_RZQQ" name="sizeOfLocatorAntennae" extendedVisibility="package" returnType="_cYgYha7zEeerXYhM3_RZQQ"/>
+      <operations xmi:id="_iK5YcK70EeerXYhM3_RZQQ" name="getLocatorAntennae" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz4-K70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_ixs5wK70EeerXYhM3_RZQQ" name="addReadWriteAntennae" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_ixs5wa70EeerXYhM3_RZQQ" name="a" type="_Guj_IK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_ixtg0K70EeerXYhM3_RZQQ" name="removeReadWriteAntennae" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_ixtg0a70EeerXYhM3_RZQQ" name="a" type="_Guj_IK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_ix9YcK70EeerXYhM3_RZQQ" name="addSimpleReadWriteAntennae" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_ix9Yca70EeerXYhM3_RZQQ" name="a" type="_Guj_IK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_ix9_gK70EeerXYhM3_RZQQ" name="removeSimpleReadWriteAntennae" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_ix9_ga70EeerXYhM3_RZQQ" name="a" type="_Guj_IK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_ix-mkK70EeerXYhM3_RZQQ" name="createReadWriteAntennae" extendedVisibility="package" returnType="_GRqAsK70EeerXYhM3_RZQQ" operationType="Constructor"/>
+      <operations xmi:id="_ix-mka70EeerXYhM3_RZQQ" name="containsReadWriteAntennae" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_ix-mkq70EeerXYhM3_RZQQ" name="a" type="_Guj_IK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_ix_NoK70EeerXYhM3_RZQQ" name="sizeOfReadWriteAntennae" extendedVisibility="package" returnType="_cYgYha7zEeerXYhM3_RZQQ"/>
+      <operations xmi:id="_ix_Noa70EeerXYhM3_RZQQ" name="getReadWriteAntennae" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne_Unordered.ram#_iKz4-K70EeerXYhM3_RZQQ"/>
+      </operations>
+      <associationEnds xmi:id="_JUNywK70EeerXYhM3_RZQQ" name="locatorAntennae" lowerBound="1" upperBound="-1" referenceType="Composition" assoc="_JUNywq70EeerXYhM3_RZQQ" featureSelection="_iK1HAK70EeerXYhM3_RZQQ"/>
+      <associationEnds xmi:id="_QrlB4K70EeerXYhM3_RZQQ" name="readWriteAntennae" lowerBound="1" upperBound="-1" referenceType="Composition" assoc="_QrlB4q70EeerXYhM3_RZQQ" featureSelection="_ixqdga70EeerXYhM3_RZQQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_Guj_IK70EeerXYhM3_RZQQ" name="ReadWriteAntenna">
+      <operations xmi:id="_Szg-wa70EeerXYhM3_RZQQ" name="setSimpleMyGantry" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_Szg-wq70EeerXYhM3_RZQQ" name="a" type="_GRqAsK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_ix_0sK70EeerXYhM3_RZQQ" name="getMyGantry" extendedVisibility="package" returnType="_GRqAsK70EeerXYhM3_RZQQ"/>
+      <operations xmi:id="_ix_0sa70EeerXYhM3_RZQQ" name="setMyGantry" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_ix_0sq70EeerXYhM3_RZQQ" name="a" type="_GRqAsK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <associationEnds xmi:id="_QrlB4a70EeerXYhM3_RZQQ" name="myGantry" lowerBound="1" assoc="_QrlB4q70EeerXYhM3_RZQQ" featureSelection="_iyDfEa70EeerXYhM3_RZQQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_HpYooK70EeerXYhM3_RZQQ" name="LocatorAntenna">
+      <operations xmi:id="_LoSuMa70EeerXYhM3_RZQQ" name="setSimpleMyGantry" extendedVisibility="protected" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_LoSuMq70EeerXYhM3_RZQQ" name="a" type="_GRqAsK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <operations xmi:id="_iK5Yca70EeerXYhM3_RZQQ" name="getMyGantry" extendedVisibility="package" returnType="_GRqAsK70EeerXYhM3_RZQQ"/>
+      <operations xmi:id="_iK5_gK70EeerXYhM3_RZQQ" name="setMyGantry" extendedVisibility="package" returnType="_cYgYhK7zEeerXYhM3_RZQQ">
+        <parameters xmi:id="_iK5_ga70EeerXYhM3_RZQQ" name="a" type="_GRqAsK70EeerXYhM3_RZQQ"/>
+      </operations>
+      <associationEnds xmi:id="_JUNywa70EeerXYhM3_RZQQ" name="myGantry" lowerBound="1" assoc="_JUNywq70EeerXYhM3_RZQQ" featureSelection="_iK9C0K70EeerXYhM3_RZQQ"/>
+    </classes>
+    <associations xmi:id="_8HCm0q7zEeerXYhM3_RZQQ" name="Vehicle_Transponder" ends="_8HCm0K7zEeerXYhM3_RZQQ _8HCm0a7zEeerXYhM3_RZQQ"/>
+    <associations xmi:id="_CQSdAq70EeerXYhM3_RZQQ" name="Account_Person" ends="_CQSdAK70EeerXYhM3_RZQQ _CQSdAa70EeerXYhM3_RZQQ"/>
+    <associations xmi:id="_JUNywq70EeerXYhM3_RZQQ" name="Gantry_LocatorAntenna" ends="_JUNywK70EeerXYhM3_RZQQ _JUNywa70EeerXYhM3_RZQQ"/>
+    <associations xmi:id="_QrlB4q70EeerXYhM3_RZQQ" name="Gantry_ReadWriteAntenna" ends="_QrlB4K70EeerXYhM3_RZQQ _QrlB4a70EeerXYhM3_RZQQ"/>
+    <associations xmi:id="_cSD80a70EeerXYhM3_RZQQ" name="Transponder_Account" ends="_cSDVwK70EeerXYhM3_RZQQ _cSD80K70EeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RVoid" xmi:id="_cYgYgq7zEeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_cYgYg67zEeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_cYgYhK7zEeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_cYgYha7zEeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_cYgYhq7zEeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RString" xmi:id="_cYgYh67zEeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_cYgYiK7zEeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_cYgYia7zEeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_cYgYiq7zEeerXYhM3_RZQQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_cYgYi67zEeerXYhM3_RZQQ"/>
+  </structuralView>
+  <instantiations xmi:id="_cYgYjK7zEeerXYhM3_RZQQ">
+    <source xsi:type="ram:Aspect" href="ETR.ram#_zG5G4K7xEeerXYhM3_RZQQ"/>
+  </instantiations>
+  <layout xmi:id="_cYgYja7zEeerXYhM3_RZQQ">
+    <containers xmi:id="_cYgYjq7zEeerXYhM3_RZQQ" key="_cYgYga7zEeerXYhM3_RZQQ">
+      <value xmi:id="_29rgUK7zEeerXYhM3_RZQQ" key="_29q5QK7zEeerXYhM3_RZQQ">
+        <value xmi:id="_29rgUa7zEeerXYhM3_RZQQ" x="458.01147" y="192.99979"/>
+      </value>
+      <value xmi:id="_5BS94K7zEeerXYhM3_RZQQ" key="_5BSW0K7zEeerXYhM3_RZQQ">
+        <value xmi:id="_5BS94a7zEeerXYhM3_RZQQ" x="996.0078" y="456.99008"/>
+      </value>
+      <value xmi:id="_5c8_IK7zEeerXYhM3_RZQQ" key="_5c8YEK7zEeerXYhM3_RZQQ">
+        <value xmi:id="_5c8_Ia7zEeerXYhM3_RZQQ" x="458.00952" y="449.99008"/>
+      </value>
+      <value xmi:id="_BlYe0K70EeerXYhM3_RZQQ" key="_BlX3wK70EeerXYhM3_RZQQ">
+        <value xmi:id="_BlYe0a70EeerXYhM3_RZQQ" x="996.0" y="192.99979"/>
+      </value>
+      <value xmi:id="_GRqnwK70EeerXYhM3_RZQQ" key="_GRqAsK70EeerXYhM3_RZQQ">
+        <value xmi:id="_GRqnwa70EeerXYhM3_RZQQ" x="737.0155" y="788.9862"/>
+      </value>
+      <value xmi:id="_GukmMK70EeerXYhM3_RZQQ" key="_Guj_IK70EeerXYhM3_RZQQ">
+        <value xmi:id="_GukmMa70EeerXYhM3_RZQQ" x="1205.0162" y="788.9862"/>
+      </value>
+      <value xmi:id="_HpZPsK70EeerXYhM3_RZQQ" key="_HpYooK70EeerXYhM3_RZQQ">
+        <value xmi:id="_HpZPsa70EeerXYhM3_RZQQ" x="300.0" y="789.0038"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
