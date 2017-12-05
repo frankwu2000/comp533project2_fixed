@@ -18,60 +18,6 @@
     </compositions>
     <reuse href="Cs533_crawler.core#_pqFOVtbqEeeMIpa-WMks1A"/>
   </modelReuses>
-  <modelReuses xmi:id="_m3KMANbwEeeMIpa-WMks1A">
-    <compositions xsi:type="ram:Instantiation" xmi:id="_m3KzENbwEeeMIpa-WMks1A">
-      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpALXUEee3M-EPgQFctQ"/>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_m3KzEdbwEeeMIpa-WMks1A" to="_Mxg40NbwEeeMIpa-WMks1A">
-        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpArXUEee3M-EPgQFctQ"/>
-      </mappings>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_m3KzEtbwEeeMIpa-WMks1A" to="_tFZUENbpEeeMIpa-WMks1A">
-        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpBLXUEee3M-EPgQFctQ"/>
-        <operationMappings xmi:id="_m3KzE9bwEeeMIpa-WMks1A" to="_m3MoQNbwEeeMIpa-WMks1A">
-          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpBbXUEee3M-EPgQFctQ"/>
-        </operationMappings>
-        <operationMappings xmi:id="_m3KzFNbwEeeMIpa-WMks1A" to="_m3NPUNbwEeeMIpa-WMks1A">
-          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpBrXUEee3M-EPgQFctQ"/>
-        </operationMappings>
-      </mappings>
-    </compositions>
-    <reuse href="Cs533_crawler.core#_m3KzFdbwEeeMIpa-WMks1A"/>
-  </modelReuses>
-  <modelReuses xmi:id="_KC0ogNbxEee0N8lISWNjbw">
-    <compositions xsi:type="ram:Instantiation" xmi:id="_KC0ogdbxEee0N8lISWNjbw">
-      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpALXUEee3M-EPgQFctQ"/>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_KC0ogtbxEee0N8lISWNjbw" to="_Sb0wQNbwEeeMIpa-WMks1A">
-        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpArXUEee3M-EPgQFctQ"/>
-      </mappings>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_KC0og9bxEee0N8lISWNjbw" to="_tFZUENbpEeeMIpa-WMks1A">
-        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpBLXUEee3M-EPgQFctQ"/>
-        <operationMappings xmi:id="_KC0ohNbxEee0N8lISWNjbw" to="_KC5hANbxEee0N8lISWNjbw">
-          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpBbXUEee3M-EPgQFctQ"/>
-        </operationMappings>
-        <operationMappings xmi:id="_KC0ohdbxEee0N8lISWNjbw" to="_KC7WMNbxEee0N8lISWNjbw">
-          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpBrXUEee3M-EPgQFctQ"/>
-        </operationMappings>
-      </mappings>
-    </compositions>
-    <reuse href="Cs533_crawler.core#_KC0ohtbxEee0N8lISWNjbw"/>
-  </modelReuses>
-  <modelReuses xmi:id="_KelXcNbxEee0N8lISWNjbw">
-    <compositions xsi:type="ram:Instantiation" xmi:id="_KelXcdbxEee0N8lISWNjbw">
-      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpALXUEee3M-EPgQFctQ"/>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_KelXctbxEee0N8lISWNjbw" to="_iFOuENbwEeeMIpa-WMks1A">
-        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpArXUEee3M-EPgQFctQ"/>
-      </mappings>
-      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_KelXc9bxEee0N8lISWNjbw" to="_tFZUENbpEeeMIpa-WMks1A">
-        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpBLXUEee3M-EPgQFctQ"/>
-        <operationMappings xmi:id="_KelXdNbxEee0N8lISWNjbw" to="_Keq3ANbxEee0N8lISWNjbw">
-          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpBbXUEee3M-EPgQFctQ"/>
-        </operationMappings>
-        <operationMappings xmi:id="_KelXddbxEee0N8lISWNjbw" to="_KetTQNbxEee0N8lISWNjbw">
-          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_One.ram#_i3CpBrXUEee3M-EPgQFctQ"/>
-        </operationMappings>
-      </mappings>
-    </compositions>
-    <reuse href="Cs533_crawler.core#_KelXdtbxEee0N8lISWNjbw"/>
-  </modelReuses>
   <realizes href="Cs533_crawler.core#_Gwa8kLXUEee3M-EPgQFctQ"/>
   <coreConcern href="Cs533_crawler.core#_FSlsobXUEee3M-EPgQFctQ"/>
   <structuralView xmi:id="_5yFofrXUEee3M-EPgQFctQ">
@@ -93,49 +39,12 @@
       <operations xmi:id="_XS3J8NbrEeeMIpa-WMks1A" name="isFormatValid" visibility="public" returnType="_5yFol7XUEee3M-EPgQFctQ">
         <parameters xmi:id="_XS3J8dbrEeeMIpa-WMks1A" name="url" type="_5yFomrXUEee3M-EPgQFctQ"/>
       </operations>
-      <operations xmi:id="_m3MoQNbwEeeMIpa-WMks1A" name="getMyURL" extendedVisibility="package" returnType="_Mxg40NbwEeeMIpa-WMks1A"/>
-      <operations xmi:id="_m3NPUNbwEeeMIpa-WMks1A" name="setMyURL" extendedVisibility="package" returnType="_5yFol7XUEee3M-EPgQFctQ">
-        <parameters xmi:id="_m3NPUdbwEeeMIpa-WMks1A" name="newObject" type="_Mxg40NbwEeeMIpa-WMks1A"/>
-      </operations>
-      <operations xmi:id="_KC5hANbxEee0N8lISWNjbw" name="getMyScanner" extendedVisibility="package" returnType="_Sb0wQNbwEeeMIpa-WMks1A"/>
-      <operations xmi:id="_KC7WMNbxEee0N8lISWNjbw" name="setMyScanner" extendedVisibility="package" returnType="_5yFol7XUEee3M-EPgQFctQ">
-        <parameters xmi:id="_KC7WMdbxEee0N8lISWNjbw" name="newObject" type="_Sb0wQNbwEeeMIpa-WMks1A"/>
-      </operations>
-      <operations xmi:id="_Keq3ANbxEee0N8lISWNjbw" name="getMyInputStream" extendedVisibility="package" returnType="_iFOuENbwEeeMIpa-WMks1A"/>
-      <operations xmi:id="_KetTQNbxEee0N8lISWNjbw" name="setMyInputStream" extendedVisibility="package" returnType="_5yFol7XUEee3M-EPgQFctQ">
-        <parameters xmi:id="_KetTQdbxEee0N8lISWNjbw" name="newObject" type="_iFOuENbwEeeMIpa-WMks1A"/>
-      </operations>
       <associationEnds xmi:id="_hgBW8NbqEeeMIpa-WMks1A" name="myWebPage" assoc="_hgB-ANbqEeeMIpa-WMks1A" featureSelection="_pqFOUNbqEeeMIpa-WMks1A"/>
-      <associationEnds xmi:id="_m3HvwNbwEeeMIpa-WMks1A" name="myURL" lowerBound="1" assoc="_m3HvwtbwEeeMIpa-WMks1A" featureSelection="_m3KMANbwEeeMIpa-WMks1A"/>
-      <associationEnds xmi:id="_KCnNINbxEee0N8lISWNjbw" name="myScanner" lowerBound="1" assoc="_KCppYNbxEee0N8lISWNjbw" featureSelection="_KC0ogNbxEee0N8lISWNjbw"/>
-      <associationEnds xmi:id="_KeepwNbxEee0N8lISWNjbw" name="myInputStream" lowerBound="1" assoc="_Kege8NbxEee0N8lISWNjbw" featureSelection="_KelXcNbxEee0N8lISWNjbw"/>
-    </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_Mxg40NbwEeeMIpa-WMks1A" name="URL" visibility="public" instanceClassName="java.net.URL">
-      <operations xmi:id="_oxCpUNbxEee0N8lISWNjbw" name="URL" visibility="public" returnType="_Mxg40NbwEeeMIpa-WMks1A" operationType="Constructor">
-        <parameters xmi:id="_oxCpUdbxEee0N8lISWNjbw" name="arg0" type="_5yFomrXUEee3M-EPgQFctQ"/>
-      </operations>
-      <operations xmi:id="_soy-ANbxEee0N8lISWNjbw" name="openStream" visibility="public" returnType="_iFOuENbwEeeMIpa-WMks1A"/>
-      <associationEnds xmi:id="_m3HvwdbwEeeMIpa-WMks1A" name="myPageGetter" lowerBound="1" navigable="false" assoc="_m3HvwtbwEeeMIpa-WMks1A"/>
-    </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_Sb0wQNbwEeeMIpa-WMks1A" name="Scanner" visibility="public" instanceClassName="java.util.Scanner">
-      <operations xmi:id="_Bux5QNbyEee0N8lISWNjbw" name="Scanner" visibility="public" returnType="_Sb0wQNbwEeeMIpa-WMks1A" operationType="Constructor">
-        <parameters xmi:id="_Bux5QdbyEee0N8lISWNjbw" name="arg0" type="_Buu18NbyEee0N8lISWNjbw"/>
-        <parameters xmi:id="_Bux5QtbyEee0N8lISWNjbw" name="arg1" type="_5yFomrXUEee3M-EPgQFctQ"/>
-      </operations>
-      <operations xmi:id="_G8ZNoNbyEee0N8lISWNjbw" name="useDelimiter" visibility="public" returnType="_Sb0wQNbwEeeMIpa-WMks1A">
-        <parameters xmi:id="_G8ZNodbyEee0N8lISWNjbw" name="arg0" type="_5yFomrXUEee3M-EPgQFctQ"/>
-      </operations>
-      <operations xmi:id="_IHXzANbyEee0N8lISWNjbw" name="next" visibility="public" returnType="_5yFomrXUEee3M-EPgQFctQ"/>
-      <associationEnds xmi:id="_KCpCUNbxEee0N8lISWNjbw" name="myPageGetter" lowerBound="1" navigable="false" assoc="_KCppYNbxEee0N8lISWNjbw"/>
-    </classes>
-    <classes xsi:type="ram:ImplementationClass" xmi:id="_iFOuENbwEeeMIpa-WMks1A" name="InputStream" instanceClassName="java.io.InputStream">
-      <associationEnds xmi:id="_Kef34NbxEee0N8lISWNjbw" name="myPageGetter" lowerBound="1" navigable="false" assoc="_Kege8NbxEee0N8lISWNjbw"/>
     </classes>
     <classes xsi:type="ram:ImplementationClass" xmi:id="_Buu18NbyEee0N8lISWNjbw" name="File" instanceClassName="java.io.File"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_aMFf8NoDEeeXsPHCF7oV7Q" name="HtmlPage" instanceClassName="com.gargoylesoftware.htmlunit.html.HtmlPage"/>
+    <classes xsi:type="ram:ImplementationClass" xmi:id="_cY1EUNoDEeeXsPHCF7oV7Q" name="WebClient" instanceClassName="com.gargoylesoftware.htmlunit.WebClient"/>
     <associations xmi:id="_hgB-ANbqEeeMIpa-WMks1A" name="PageGetter_WebPage" ends="_hgBW8NbqEeeMIpa-WMks1A _hgBW8dbqEeeMIpa-WMks1A"/>
-    <associations xmi:id="_m3HvwtbwEeeMIpa-WMks1A" name="PageGetter_URL" ends="_m3HvwNbwEeeMIpa-WMks1A _m3HvwdbwEeeMIpa-WMks1A"/>
-    <associations xmi:id="_KCppYNbxEee0N8lISWNjbw" name="PageGetter_Scanner" ends="_KCnNINbxEee0N8lISWNjbw _KCpCUNbxEee0N8lISWNjbw"/>
-    <associations xmi:id="_Kege8NbxEee0N8lISWNjbw" name="PageGetter_InputStream" ends="_KeepwNbxEee0N8lISWNjbw _Kef34NbxEee0N8lISWNjbw"/>
     <types xsi:type="ram:RVoid" xmi:id="_5yFolbXUEee3M-EPgQFctQ"/>
     <types xsi:type="ram:RAny" xmi:id="_5yFolrXUEee3M-EPgQFctQ"/>
     <types xsi:type="ram:RBoolean" xmi:id="_5yFol7XUEee3M-EPgQFctQ"/>
@@ -187,17 +96,14 @@
       <value xmi:id="_tFaiMNbpEeeMIpa-WMks1A" key="_tFZUENbpEeeMIpa-WMks1A">
         <value xmi:id="_tFaiMdbpEeeMIpa-WMks1A" x="358.56927" y="386.40036"/>
       </value>
-      <value xmi:id="_Mxhf4NbwEeeMIpa-WMks1A" key="_Mxg40NbwEeeMIpa-WMks1A">
-        <value xmi:id="_Mxhf4dbwEeeMIpa-WMks1A" x="676.0216" y="75.95706"/>
-      </value>
-      <value xmi:id="_Sb1-YNbwEeeMIpa-WMks1A" key="_Sb0wQNbwEeeMIpa-WMks1A">
-        <value xmi:id="_Sb1-YdbwEeeMIpa-WMks1A" x="730.0" y="296.00003"/>
-      </value>
-      <value xmi:id="_iFPVINbwEeeMIpa-WMks1A" key="_iFOuENbwEeeMIpa-WMks1A">
-        <value xmi:id="_iFPVIdbwEeeMIpa-WMks1A" x="724.0216" y="555.00006"/>
-      </value>
       <value xmi:id="_BuwEENbyEee0N8lISWNjbw" key="_Buu18NbyEee0N8lISWNjbw">
         <value xmi:id="_BuwEEdbyEee0N8lISWNjbw"/>
+      </value>
+      <value xmi:id="_aMGuENoDEeeXsPHCF7oV7Q" key="_aMFf8NoDEeeXsPHCF7oV7Q">
+        <value xmi:id="_aMGuEdoDEeeXsPHCF7oV7Q" x="714.3399" y="226.95697"/>
+      </value>
+      <value xmi:id="_cY2ScNoDEeeXsPHCF7oV7Q" key="_cY1EUNoDEeeXsPHCF7oV7Q">
+        <value xmi:id="_cY2ScdoDEeeXsPHCF7oV7Q" x="714.3399" y="428.40048"/>
       </value>
     </containers>
     <containers xmi:id="_WYisMNbqEeeMIpa-WMks1A">

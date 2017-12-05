@@ -25,33 +25,6 @@
           <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-      <reuses xmi:id="_m3KzFdbwEeeMIpa-WMks1A" name="Association_PageGetter_URL" selectedConfiguration="_m3KzFtbwEeeMIpa-WMks1A">
-        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
-        <configurations xmi:id="_m3KzFtbwEeeMIpa-WMks1A" name="Automatic selection" reuse="_m3KzFdbwEeeMIpa-WMks1A">
-          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
-        </configurations>
-      </reuses>
-      <reuses xmi:id="_KC0ohtbxEee0N8lISWNjbw" name="Association_PageGetter_Scanner" selectedConfiguration="_KC0oh9bxEee0N8lISWNjbw">
-        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
-        <configurations xmi:id="_KC0oh9bxEee0N8lISWNjbw" name="Automatic selection" reuse="_KC0ohtbxEee0N8lISWNjbw">
-          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
-        </configurations>
-      </reuses>
-      <reuses xmi:id="_KelXdtbxEee0N8lISWNjbw" name="Association_PageGetter_InputStream" selectedConfiguration="_KelXd9bxEee0N8lISWNjbw">
-        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
-        <configurations xmi:id="_KelXd9bxEee0N8lISWNjbw" name="Automatic selection" reuse="_KelXdtbxEee0N8lISWNjbw">
-          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
-          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
-          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
-        </configurations>
-      </reuses>
     </features>
     <features xmi:id="_HLpgALXUEee3M-EPgQFctQ" name="Authentication handling" children="_JP5PsLXUEee3M-EPgQFctQ _Jiro0LXUEee3M-EPgQFctQ" parent="_FSp-EbXUEee3M-EPgQFctQ" parentRelationship="Optional">
       <realizedBy xsi:type="ram:Aspect" href="Authentication%20handling.ram#_TUGqILXVEee3M-EPgQFctQ"/>
