@@ -15,16 +15,21 @@
     </classes>
     <classes xsi:type="ram:Class" xmi:id="_BYw3ALqYEeetHptzB0NRXA" name="UserQuery"/>
     <classes xsi:type="ram:Class" xmi:id="_TGwKANrJEee_r8-AmJ87KA" name="WebPage"/>
-    <classes xsi:type="ram:Class" xmi:id="_XBndENrJEee_r8-AmJ87KA" name="ContentProcessor" visibility="public" abstract="true">
-      <operations xmi:id="_99qa8NrJEee_r8-AmJ87KA" name="getMediaContent" visibility="public" returnType="_18Ax87XYEee3M-EPgQFctQ">
-        <parameters xmi:id="_ARSDYNrKEee_r8-AmJ87KA" name="query" type="__dwi4LqXEeetHptzB0NRXA"/>
-        <parameters xmi:id="_CUssoNrKEee_r8-AmJ87KA" name="webpage" type="_TGwKANrJEee_r8-AmJ87KA"/>
+    <classes xsi:type="ram:Class" xmi:id="_XBndENrJEee_r8-AmJ87KA" name="ContentProcessor" visibility="public" abstract="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_bGiOkNrKEee_r8-AmJ87KA" name="ImpURL" visibility="public">
+      <operations xmi:id="_eGlQQN0cEeeL2fyqqVHKbA" name="create" visibility="public" returnType="_bGiOkNrKEee_r8-AmJ87KA" operationType="Constructor">
+        <parameters xmi:id="_f7lDAN0cEeeL2fyqqVHKbA" name="url" type="_18Ax-LXYEee3M-EPgQFctQ"/>
+      </operations>
+      <operations xmi:id="_6re0IN0cEeeL2fyqqVHKbA" name="openStream" visibility="public" returnType="_EY1DMN0dEeeL2fyqqVHKbA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_l38isNrKEee_r8-AmJ87KA" name="ImpReadableByteChannel"/>
+    <classes xsi:type="ram:Class" xmi:id="_r8wk0NrKEee_r8-AmJ87KA" name="ImpOutputStream"/>
+    <classes xsi:type="ram:Class" xmi:id="_oJrF0N0cEeeL2fyqqVHKbA" name="ImpChannel" visibility="public">
+      <operations xmi:id="_sokTAN0cEeeL2fyqqVHKbA" name="newChannel" visibility="public" returnType="_l38isNrKEee_r8-AmJ87KA" static="true">
+        <parameters xmi:id="_zqFN8N0cEeeL2fyqqVHKbA" name="outputStream" type="_r8wk0NrKEee_r8-AmJ87KA"/>
       </operations>
     </classes>
-    <classes xsi:type="ram:Class" xmi:id="_bGiOkNrKEee_r8-AmJ87KA" name="ImpURL"/>
-    <classes xsi:type="ram:Class" xmi:id="_l38isNrKEee_r8-AmJ87KA" name="ImpReadableByteChannel"/>
-    <classes xsi:type="ram:Class" xmi:id="_r8wk0NrKEee_r8-AmJ87KA" name="ImpFileOutputStream"/>
-    <classes xsi:type="ram:Class" xmi:id="_B-L0oNrLEee_r8-AmJ87KA" name="ImpHtmlElement"/>
+    <classes xsi:type="ram:Class" xmi:id="_EY1DMN0dEeeL2fyqqVHKbA" name="ImpInputStream"/>
     <types xsi:type="ram:RVoid" xmi:id="_18Ax87XYEee3M-EPgQFctQ"/>
     <types xsi:type="ram:RAny" xmi:id="_18Ax9LXYEee3M-EPgQFctQ"/>
     <types xsi:type="ram:RBoolean" xmi:id="_18Ax9bXYEee3M-EPgQFctQ"/>
@@ -41,60 +46,46 @@
       <literals xmi:id="_BmveQLXaEee3M-EPgQFctQ" name="Image"/>
     </types>
   </structuralView>
-  <messageViews xsi:type="ram:MessageView" xmi:id="_wMFE89rKEee_r8-AmJ87KA" specifies="_99qa8NrJEee_r8-AmJ87KA">
-    <specification xmi:id="_wMFE9NrKEee_r8-AmJ87KA">
-      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_wMFE9drKEee_r8-AmJ87KA" covered="_wMFE99rKEee_r8-AmJ87KA" message="_wMFE-NrKEee_r8-AmJ87KA"/>
-      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_wMFE9trKEee_r8-AmJ87KA" covered="_wMFE99rKEee_r8-AmJ87KA" message="_wMFE-drKEee_r8-AmJ87KA"/>
-      <lifelines xmi:id="_wMFE99rKEee_r8-AmJ87KA" represents="_wMFE-trKEee_r8-AmJ87KA" coveredBy="_wMFE9drKEee_r8-AmJ87KA _wMFE9trKEee_r8-AmJ87KA"/>
-      <messages xmi:id="_wMFE-NrKEee_r8-AmJ87KA" sendEvent="_wMFE-9rKEee_r8-AmJ87KA" receiveEvent="_wMFE9drKEee_r8-AmJ87KA" signature="_99qa8NrJEee_r8-AmJ87KA"/>
-      <messages xmi:id="_wMFE-drKEee_r8-AmJ87KA" sendEvent="_wMFE9trKEee_r8-AmJ87KA" receiveEvent="_wMFE_NrKEee_r8-AmJ87KA" signature="_99qa8NrJEee_r8-AmJ87KA" messageSort="reply"/>
-      <properties xmi:id="_wMFE-trKEee_r8-AmJ87KA" name="target" lowerBound="1" type="_XBndENrJEee_r8-AmJ87KA"/>
-      <formalGates xmi:id="_wMFE-9rKEee_r8-AmJ87KA" message="_wMFE-NrKEee_r8-AmJ87KA" name="in_getMediaContent"/>
-      <formalGates xmi:id="_wMFE_NrKEee_r8-AmJ87KA" message="_wMFE-drKEee_r8-AmJ87KA" name="out_getMediaContent"/>
-    </specification>
-  </messageViews>
   <instantiations xmi:id="_18Ax_bXYEee3M-EPgQFctQ">
     <source xsi:type="ram:Aspect" href="Content%20processing.ram#_nUmHgLXWEee3M-EPgQFctQ"/>
   </instantiations>
   <layout xmi:id="_18Ax_rXYEee3M-EPgQFctQ">
     <containers xmi:id="_18Ax_7XYEee3M-EPgQFctQ" key="_18Ax8bXYEee3M-EPgQFctQ">
       <value xmi:id="_ZRfRwLXZEee3M-EPgQFctQ" key="_ZReqsLXZEee3M-EPgQFctQ">
-        <value xmi:id="_ZRfRwbXZEee3M-EPgQFctQ" x="184.0" y="70.0"/>
+        <value xmi:id="_ZRfRwbXZEee3M-EPgQFctQ" x="375.25955" y="93.49609"/>
       </value>
       <value xmi:id="_aRBcILXZEee3M-EPgQFctQ" key="_aRA1ELXZEee3M-EPgQFctQ">
-        <value xmi:id="_aRBcIbXZEee3M-EPgQFctQ" x="185.99478" y="222.00049"/>
+        <value xmi:id="_aRBcIbXZEee3M-EPgQFctQ" x="377.26837" y="222.78093"/>
       </value>
       <value xmi:id="_92EB8LXZEee3M-EPgQFctQ" key="_92Da4LXZEee3M-EPgQFctQ">
-        <value xmi:id="_92EB8bXZEee3M-EPgQFctQ" x="826.0" y="70.0"/>
+        <value xmi:id="_92EB8bXZEee3M-EPgQFctQ" x="696.98676" y="69.94968"/>
       </value>
       <value xmi:id="__dxxALqXEeetHptzB0NRXA" key="__dwi4LqXEeetHptzB0NRXA">
-        <value xmi:id="__dxxAbqXEeetHptzB0NRXA" x="546.0" y="222.0"/>
+        <value xmi:id="__dxxAbqXEeetHptzB0NRXA" x="-40.509975" y="209.76031"/>
       </value>
       <value xmi:id="_BYysMLqYEeetHptzB0NRXA" key="_BYw3ALqYEeetHptzB0NRXA">
-        <value xmi:id="_BYysMbqYEeetHptzB0NRXA" x="576.0" y="70.0"/>
+        <value xmi:id="_BYysMbqYEeetHptzB0NRXA" x="-3.435059" y="93.44968"/>
       </value>
       <value xmi:id="_TGxYINrJEee_r8-AmJ87KA" key="_TGwKANrJEee_r8-AmJ87KA">
-        <value xmi:id="_TGxYIdrJEee_r8-AmJ87KA" x="826.09357" y="339.75278"/>
+        <value xmi:id="_TGxYIdrJEee_r8-AmJ87KA" x="826.0643" y="348.80475"/>
       </value>
       <value xmi:id="_XBorMNrJEee_r8-AmJ87KA" key="_XBndENrJEee_r8-AmJ87KA">
-        <value xmi:id="_XBorMdrJEee_r8-AmJ87KA" x="55.35796" y="522.4416"/>
+        <value xmi:id="_XBorMdrJEee_r8-AmJ87KA" x="-0.54952276" y="447.25067"/>
       </value>
       <value xmi:id="_bGkDwNrKEee_r8-AmJ87KA" key="_bGiOkNrKEee_r8-AmJ87KA">
-        <value xmi:id="_bGkDwdrKEee_r8-AmJ87KA" x="826.0985" y="447.1965"/>
+        <value xmi:id="_bGkDwdrKEee_r8-AmJ87KA" x="826.09766" y="447.19662"/>
       </value>
       <value xmi:id="_l3-X4NrKEee_r8-AmJ87KA" key="_l38isNrKEee_r8-AmJ87KA">
-        <value xmi:id="_l3-X4drKEee_r8-AmJ87KA" x="764.6174" y="550.36206"/>
+        <value xmi:id="_l3-X4drKEee_r8-AmJ87KA" x="764.5643" y="687.17035"/>
       </value>
       <value xmi:id="_r8xL4NrKEee_r8-AmJ87KA" key="_r8wk0NrKEee_r8-AmJ87KA">
-        <value xmi:id="_r8xL4drKEee_r8-AmJ87KA" x="784.59357" y="687.15485"/>
+        <value xmi:id="_r8xL4drKEee_r8-AmJ87KA" x="485.64404" y="687.17035"/>
       </value>
-      <value xmi:id="_B-Np0NrLEee_r8-AmJ87KA" key="_B-L0oNrLEee_r8-AmJ87KA">
-        <value xmi:id="_B-Np0drLEee_r8-AmJ87KA" x="208.99478" y="687.15485"/>
+      <value xmi:id="_oJs7AN0cEeeL2fyqqVHKbA" key="_oJrF0N0cEeeL2fyqqVHKbA">
+        <value xmi:id="_oJs7Ad0cEeeL2fyqqVHKbA" x="275.64404" y="809.24677"/>
       </value>
-    </containers>
-    <containers xmi:id="_wMFE8NrKEee_r8-AmJ87KA" key="_wMFE89rKEee_r8-AmJ87KA">
-      <value xmi:id="_wMFE8drKEee_r8-AmJ87KA" key="_wMFE99rKEee_r8-AmJ87KA">
-        <value xmi:id="_wMFE8trKEee_r8-AmJ87KA" x="100.0" y="100.0"/>
+      <value xmi:id="_EY3fcN0dEeeL2fyqqVHKbA" key="_EY1DMN0dEeeL2fyqqVHKbA">
+        <value xmi:id="_EY3fcd0dEeeL2fyqqVHKbA" x="253.7351" y="687.1595"/>
       </value>
     </containers>
   </layout>
